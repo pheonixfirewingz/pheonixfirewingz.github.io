@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.sub_content
+	{
+		padding-left: 120px;
+	}
+	.sub_title
+	{
+		padding-right: 70px;
+	}
+	.sub_text
+	{
+		padding-right: 100px;
+	}
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.main_nav ul li:not(:last-of-type)
+	{
+		margin-right: 35px;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.sub_content
+	{
+		padding-left: 68px;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.contact_button
+	{
+		width: 145px;
+		height: 47px;
+	}
+	.contact_button a
+	{
+		font-size: 14px;
+		line-height: 47px;
+	}
+	.sub
+	{
+		padding-bottom: 106px;
+	}
+	.sub.container_reset .container
+	{
+		max-width: 960px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.sub.container_reset .container .row
+	{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.sub.container_reset .container .row > div[class^="col"]
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.sub_image .background_image
+	{
+		display: none;
+	}
+	.sub_image img
+	{
+		display: inline-block;
+	}
+	.sub_content
+	{
+		padding-left: 0;
+	}
+	.sub_title
+	{
+		padding-right: 0;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.logo
+	{
+		left: 30px;
+	}
+	.main_nav
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.sub.container_reset .container
+	{
+		max-width: 720px;
+	}
+	.footer_column
+	{
+		padding-top: 0;
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.section_title h1
+	{
+		font-size: 56px;
+	}
+	.slide_title > div
+	{
+		font-size: 48px;
+	}
+	.slide_title > div > span
+	{
+		font-size: 60px;
+	}
+	.slide_button
+	{
+		margin-top: 44px;
+	}
+	.sub.container_reset .container
+	{
+		max-width: 540px;
+	}
+	.sub_text
+	{
+		padding-right: 0;
+	}
+	.cta_content
+	{
+		font-size: 56px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 14px;
+	}
+	.section_title h1
+	{
+		font-size: 36px;
+	}
+	.header_content
+	{
+		height: 90px;
+	}
+	.menu
+	{
+		height: 433px;
+	}
+	.menu_content
+	{
+		padding-top: 163px;
+	}
+	.home_slider_dots_container
+	{
+		display: none;
+	}
+	.slide_container
+	{
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.contact_button
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		margin-left: 0;
+	}
+	.search_container
+	{
+		margin-right: 5px;
+	}
+	.button
+	{
+		width: 145px;
+		height: 47px;
+	}
+	.button a
+	{
+		font-size: 14px;
+		line-height: 47px;
+	}
+	.slide_button
+	{
+		margin-top: 38px;
+	}
+	.sub.container_reset .container
+	{
+		max-width: 100%;
+	}
+	.sub_list ul li > div:last-of-type
+	{
+		font-size: 14px;
+	}
+	.portfolio
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.test_text p
+	{
+		font-size: 16px;
+	}
+	.cta_content
+	{
+		font-size: 36px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
