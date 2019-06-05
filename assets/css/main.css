@@ -2,7 +2,10 @@
 @import url(nav.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap%27');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap%27');
-
+/*
+ * this is the base css file call this for the universal look of the pages
+ */
+ 
 .aside
 {
 	display:none;
