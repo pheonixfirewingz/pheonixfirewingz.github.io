@@ -25,7 +25,7 @@ html, body
 }
 
 /*moblie look*/
-@media only screen and (max-width : 719px ) and (min-width: 330px)
+@media only screen and (max-width : 1029px ) and (min-width: 330px)
 {
 	.gridWrapper
 	{
@@ -48,26 +48,18 @@ html, body
 		background-color: #22272d;
 		height: 50px;
 	}
-
-	.nav
-	{
-		background-color:#9F9F9F;
-		height: 30px;
-		grid-area:nav;
-	}
+	/* ".main" is a base and can be set diffent based on the page*/
 	.main
 	{
 		grid-area:main;
-		height: 400px;
 	}
 
 	.footer
 	{
 		height: 25px;
-		border-top: gold 1px solid;
 		grid-area: footer;
 		text-align:center;
-		color: gold;
+		color: #000;
 	}
 
 	.footer p
@@ -86,8 +78,12 @@ html, body
 	}
 }
 /*destop look*/
-@media only screen and (min-width : 720px ) and (max-width : 1999px)
+@media only screen and (min-width : 1030px ) and (max-width : 1999px)
 {
+	#mobile
+	{
+		display: none;
+	}
 .gridWrapper
 {
 	display: grid;
@@ -108,26 +104,17 @@ html, body
 	background-color: #22272d;
 	height: 75px;
 }
-
-.nav
-{
-	background-color:#9F9F9F;
-	height: 46px;
-	grid-area:nav;
-}
+/* ".main" is a base and can be set diffent based on the page*/
 .main
 {
-	height:1080px;
 	grid-area:main;
-	width: 53%;
 }
 .footer
 {
 	height: 25px;
-	border-top: gold 1px solid;
 	grid-area: footer;
 	text-align:center;
-	color: gold;
+	color: #000;
 }
 
 .footer p

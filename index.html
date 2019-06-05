@@ -11,33 +11,44 @@
 <body onload="closeNav();" class="body">
     <div class="content">
         <div class="gridWrapper" id="gridWrapper">
+            <!--header-->
             <header class="header">
                 <h1>
-                    <a onclick="openMNav();" style="float:left; color:white; Margin: 0px 0px 0px 10px;">&equiv;</a>
+                    <!--this <a> is import for mobile compatibly done remove-->
+                    <a onclick="openMNav();" id="mobile" style="float:left; color:white; Margin: 5px 0px 0px 10px;">&equiv;</a>
+                    <!-------------------------------------------------------->
                     Echo Studios
                 </h1>
                
             </header>
+            <!--main content-->
             <main class="main">
             <br>
+            <p style="text-align: center;">to add content</p>
+            <br>
             </main>
+            <!--footer-->
             <footer class="footer">
-                <p>Phoenixfirewingz© 2017-2019</p>
+                <p>Echo Studios©2019</p>
             </footer>
         </div>
+        <!--this is the sideNavbar-->
         <div id="mySidenav" class="sidenav">
+            <!--this <a> is import for mobile compatibly done remove-->
             <a href="" class="closebtn" id="close" onclick="closeNav()">&times;</a>
+            <!-------------------------------------------------------->
 		  	<a href="#">About</a>
 		  	<a href="#">Services</a>
   			<a href="#">Clients</a>
  			<a href="#">Contact</a>
 	   </div>
     </div>
+    <!--replace's contect div on screen if css detects a non supported screen size-->
     <div class="nosupport">
-        <h1>this site dose not support screen size's below 330 pixels in width</h1>
+        <h1>this site dose not support screen size's below 330 pixels in width yet sorry for the inconveniance</h1>
     </div>
     <div class="nosupport2">
-        <h1>this site dose not have a 4K look that works yet</h1>
+        <h1>this site dose not have a 4K look that works yet sorry for the inconveniance</h1>
     </div>
 </body>
 

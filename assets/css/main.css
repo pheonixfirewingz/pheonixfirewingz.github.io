@@ -5,11 +5,6 @@
 /*
  * this is the base css file call this for the universal look of the pages
  */
- 
-.aside
-{
-	display:none;
-}
 .main
 {
 	color: black;
