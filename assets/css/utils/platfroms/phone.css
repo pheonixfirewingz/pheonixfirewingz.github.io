@@ -5,9 +5,38 @@
 	font-size:10px;
 }
 
+#loader 
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #4346DC;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+
 #footer
 {
 	font-size:6px;
+}
+
+.text p
+{
+	font-size: 32px;
+	color:#001DFF;
+}
+
+.mySlides img
+{
+	height:150px;
+	width: 180px;
 }
 
 .navbar a 
@@ -36,12 +65,15 @@
 
 .mySlides img
 {
-	height: 150px;
-	margin-left:75px;
-	
+	margin-left:75px;	
 }
 
 .content
+{
+	font-size:14px;
+}
+
+.content2
 {
 	font-size:14px;
 }

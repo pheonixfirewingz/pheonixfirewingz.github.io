@@ -1,5 +1,21 @@
 @import url("iplatfrombase.css");
 
+#loader 
+{
+  position: absolute;
+  top:25%;
+  left:30%;
+  z-index: 1;
+  margin: -5px 0 0 -5px;
+  border: 32px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 32px solid #4346DC;
+  width: 960px;
+  height: 960px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
 #header
 {
 	height:150px;
@@ -12,6 +28,22 @@
 }
 
 .content
+{
+	font-size:24px;
+}
+
+.text p
+{
+	font-size: 56px;
+	color:#001DFF;
+}
+.mySlides img
+{
+	height:900px;
+	width: 1200px;
+}
+
+.content2
 {
 	font-size:24px;
 }
@@ -52,8 +84,7 @@
 
 .mySlides img
 {
-	height: 800px;
-	margin-left:320px;
+	margin-left:200px;
 }
 
 .prev, .next 

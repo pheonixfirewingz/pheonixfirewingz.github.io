@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ruge+Boogie&display=swap');
+
+@-webkit-keyframes spin 
+{
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin 
+{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom 
+{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom 
+{
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom 
+{ 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#page
+{
+  display: none;
+  text-align: center;
+}
+
 *
 {
 	margin: 0px;
@@ -26,8 +67,13 @@ body
 {
 	display:flex;
 	align-content:space-around;
+	background-color: rgba(0,0,0,0.75);
 }
 
+#filler
+{
+	background-color: rgba(0,0,0,0.75);
+}
 .content h1
 {
 	font-family: 'Ruge Boogie', cursive;
@@ -40,6 +86,28 @@ body
 	text-align:center;
 }
 
+.content2
+{
+	padding: 3px;
+	width:33.3%;
+	text-align:center;
+}
+
+.content2 h4
+{
+	padding: 5px;
+}
+
+.content2 a
+{
+	text-decoration: none;
+	border: thin gold groove;
+	background: gray;
+	color:gold;
+	font-family: 'Ruge Boogie', cursive;
+	padding: 5px;
+	font-size: large;
+}
 #footer
 {
 	border-top:solid gold;
@@ -131,6 +199,12 @@ body
   color: white;
   font-weight: bold;
   user-select: none;
+}
+
+.prev
+{
+	float:left;
+	margin-left: -50%;
 }
 
 .prev:hover, .next:hover 
