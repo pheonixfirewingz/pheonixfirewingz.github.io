@@ -13,16 +13,17 @@
     <link rel="stylesheet" type="text/css" href="assets/css/wolf.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <title>Phoenixfirewingz</title>
+    <script src="assets/js/user.js"></script>
 </head>
 
-<body onLoad="load()">
+<body onLoad="userDataLoad(); load();" onUnload="StoreUserDataToLocalBrowser()">
 <div id="loader" style="background-image:url(assets/images/loader.svg)"></div>
 <div style="display:none;" id="page" class="animate-bottom">
     <header id="header">
         <h1>Phoenixfirewingz</h1>
     </header>
     <div class="navbar">
-        <a href="index.html">HOME</a>
+        <a href="main-1.html">HOME</a>
         <div class="dropdown">
             <button class="dropbtn" onclick="dropdown()">TEAMS
     <i class="fa fa-caret-down"></i>
@@ -38,7 +39,7 @@
     </div>
 	<div class="main_a" style="background:url(assets/images/tffb.svg) no-repeat; background-size: cover;">
 		<div style="background-color: rgba(0,0,0,0.70);">
-		<h1 id="wolf_one">WOLF WORLD</h1>
+		<h1 id="wolf_one">FORGOTTEN FLAME</h1>
 		<h1>Episodes Avaliable</h1>
 		<ul id="list">
 			<li>NON YET</li>
