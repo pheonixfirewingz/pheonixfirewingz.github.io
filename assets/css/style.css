@@ -65,14 +65,14 @@ html, body {
     background: #fff
 }
 
-#anwser {}
+.anwser {}
 
-#anwser h1
+.anwser h1
 {
     font-size:48px;
 }
 
-#anwser p 
+.sanwser p 
 {
     font-size:32px;
 }
@@ -90,4 +90,63 @@ html, body {
     flex-direction:row;
 }
 
+@media screen and (max-width: 479px)
+{
+    /* start of phone styles */
+    #title 
+    {
+        font-family: 'Courgette', cursive;
+        font-size: 32px;
+        margin-left: 7.5%;
+        margin-bottom: 0.5%;
+        margin-top: 0.5%;
+        color: wheat;
+    }
+
+    #nav 
+    {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        font-size: 26px;
+    }
+
+    #nav a 
+    {
+         padding-top: 6%;
+         padding-left: 4%;
+         padding-right: 4%;
+         text-decoration: none;
+         font-weight: bold;
+         color: wheat;
+    }
+
+    .contaner 
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .anwser {}
+
+    .anwser h1 
+    {
+       font-size: 32px;
+    }
+
+    .sanwser p 
+    {
+       font-size: 24px;
+    }
+
+    #footercontainer 
+    {
+        color: white;
+        background-color: black;
+        height: 75px;
+    }
+
+}
 
