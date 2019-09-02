@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+html, body {
+    margin: 0px;
+    border: 0px;
+    background-color: white;
+    /**text-shadow: 1px 1px gray;
+        */
+}
+
+#header 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#title 
+{
+    font-family: 'Courgette', cursive;
+    font-size: 48px;
+    margin-left: 7.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    color:wheat;
+}
+
+#nav 
+{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 26px;
+}
+
+#nav a
+{
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat;
+}
+
+.contaner
+{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+}
+
+.icon 
+{
+    width: 5%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    height: 75px;
+}
+
+.line 
+{
+    width: 70%;
+    height: 1px;
+    background: #fff
+}
+
+#anwser {}
+
+#anwser h1
+{
+    font-size:48px;
+}
+
+#anwser p 
+{
+    font-size:32px;
+}
+
+#footercontainer
+{
+    color:white;
+    background-color:black;
+    height:75px;
+}
+
+#footer
+{
+    display:flex;
+    flex-direction:row;
+}
+
+
