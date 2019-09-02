@@ -90,13 +90,20 @@ html, body {
     flex-direction:row;
 }
 
+#footer h1 
+{
+    margin-left: 10%;
+    margin-top: 0.25%;
+    font-size: 26px;
+}
+
 @media screen and (max-width: 479px)
 {
     /* start of phone styles */
     #title 
     {
         font-family: 'Courgette', cursive;
-        font-size: 32px;
+        font-size: 26px;
         margin-left: 7.5%;
         margin-bottom: 0.5%;
         margin-top: 0.5%;
@@ -108,7 +115,7 @@ html, body {
         display: flex;
         flex-direction: row;
         list-style: none;
-        font-size: 26px;
+        font-size: 18px;
     }
 
     #nav a 
@@ -133,12 +140,12 @@ html, body {
 
     .anwser h1 
     {
-       font-size: 32px;
+       font-size: 24px;
     }
 
     .sanwser p 
     {
-       font-size: 24px;
+       font-size: 18px;
     }
 
     #footercontainer 
@@ -146,6 +153,13 @@ html, body {
         color: white;
         background-color: black;
         height: 75px;
+    }
+
+    #footer h1
+    {
+        margin-left: 10%;
+        margin-top: 0.25%;
+        font-size: 14px;
     }
 
 }
