@@ -14,6 +14,8 @@ html body {
   flex-direction: row; }
 
 #title {
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: "Grenze", serif;
   font-size: 48px;
   margin-bottom: 0.5%;
