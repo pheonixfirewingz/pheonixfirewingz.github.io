@@ -137,7 +137,7 @@ html body {
   font-family: "Raleway", sans-serif;
   font-size: 8px; }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #title {
     font-family: "Grenze", serif;
     font-size: 12px;
