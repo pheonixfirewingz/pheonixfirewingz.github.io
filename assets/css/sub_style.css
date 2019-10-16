@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+html body {
+  margin: 0px;
+  border: 0px;
+  background-color: black; }
+
+#page {
+  display: none;
+  text-align: center; }
+
+#header {
+  display: flex;
+  flex-direction: row; }
+
+#title {
+  font-family: "Grenze", serif;
+  font-size: 48px;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  color: gold; }
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 32px; }
+
+#nav a {
+  padding-top: 14%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-decoration: none;
+  font-weight: bold;
+  color: gold; }
+
+.contaner {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px; }
+
+.icon {
+  width: 5%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  height: 75px; }
+
+.line {
+  width: 70%;
+  height: 1px;
+  background: #000; }
+
+.anwser h1 {
+  font-size: 48px; }
+
+.sanwser p {
+  font-size: 32px; }
+
+.titleText {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 48px; }
+
+.slideshow-container {
+  position: relative;
+  margin: 0; }
+
+.mySlides {
+  display: none;
+  height: 600px;
+  width: 100%; }
+
+.mySlides img {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 500px;
+  width: 100%; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; }
+
+.prev {
+  float: left; }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.text {
+  color: #000;
+  position: absolute;
+  text-align: center;
+  font-size: 48px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%; }
+
+.dot {
+  cursor: pointer;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+#footer {
+  background: white;
+  color: gold;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 8px; }

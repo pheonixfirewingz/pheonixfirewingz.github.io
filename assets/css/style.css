@@ -1,166 +1,72 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
-html, body {
-    margin: 0px;
-    border: 0px;
-    background-color: white;
-    /**text-shadow: 1px 1px gray;
-        */
-}
+@import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+html body {
+  margin: 0px;
+  border: 0px;
+  background-color: white; }
 
-#header 
-{
-    display: flex;
-    flex-direction: row;
-}
+#page {
+  display: none;
+  text-align: center; }
 
-#title 
-{
-    font-family: 'Courgette', cursive;
-    font-size: 48px;
-    margin-left: 7.5%;
-    margin-bottom: 0.5%;
-    margin-top: 0.5%;
-    color:wheat;
-}
+#header {
+  display: flex;
+  flex-direction: row; }
 
-#nav 
-{
-    
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    font-size: 26px;
-}
+#title {
+  font-family: "Grenze", serif;
+  font-size: 48px;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  color: wheat; }
 
-#nav a
-{
-    padding-top: 6%;
-    padding-left: 4%;
-    padding-right: 4%;
-    text-decoration: none;
-    font-weight: bold;
-    color: wheat;
-}
+#nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 26px; }
 
-.contaner
-{
-    display: flex;
-    flex-direction: row;
-    margin:0;
-    padding:0;
-}
+#nav a {
+  padding-top: 6%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-decoration: none;
+  font-weight: bold;
+  color: wheat; }
 
-.icon 
-{
-    width: 5%;
-    background-size: 100% 100%;
-    border-radius: 50%;
-    height: 75px;
-}
+.contaner {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px; }
 
-.line 
-{
-    width: 70%;
-    height: 1px;
-    background: #fff
-}
+.icon {
+  width: 5%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  height: 75px; }
 
-.anwser {}
+.line {
+  width: 70%;
+  height: 1px;
+  background: #fff; }
 
-.anwser h1
-{
-    font-size:48px;
-}
+.anwser h1 {
+  font-size: 48px; }
 
-.sanwser p 
-{
-    font-size:32px;
-}
+.sanwser p {
+  font-size: 32px; }
 
-#footercontainer
-{
-    color:white;
-    background-color:black;
-    height:75px;
-}
+.titleText {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 48px; }
 
-#footer
-{
-    display:flex;
-    flex-direction:row;
-}
-
-#footer h1 
-{
-    margin-left: 10%;
-    margin-top: 0.25%;
-    font-size: 26px;
-}
-
-@media screen and (max-width: 479px)
-{
-    /* start of phone styles */
-    #title 
-    {
-        font-family: 'Courgette', cursive;
-        font-size: 26px;
-        margin-left: 7.5%;
-        margin-bottom: 0.5%;
-        margin-top: 0.5%;
-        color: wheat;
-    }
-
-    #nav 
-    {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        font-size: 18px;
-    }
-
-    #nav a 
-    {
-         padding-top: 6%;
-         padding-left: 4%;
-         padding-right: 4%;
-         text-decoration: none;
-         font-weight: bold;
-         color: wheat;
-    }
-
-    .contaner 
-    {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-    }
-
-    .anwser {}
-
-    .anwser h1 
-    {
-       font-size: 24px;
-    }
-
-    .sanwser p 
-    {
-       font-size: 18px;
-    }
-
-    #footercontainer 
-    {
-        color: white;
-        background-color: black;
-        height: 75px;
-    }
-
-    #footer h1
-    {
-        margin-left: 10%;
-        margin-top: 0.25%;
-        font-size: 14px;
-    }
-
-}
-
+#footer {
+  background: black;
+  color: white;
+  border-top: solid gold;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 8px; }
