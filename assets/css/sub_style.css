@@ -140,7 +140,7 @@ html body {
 @media screen and (min-width: 1024px) {
   #title {
     font-family: "Grenze", serif;
-    font-size: 24px;
+    font-size: 12px;
     margin-bottom: 0.25%;
     margin-top: 0.25%;
-    color: gold; } }
+    color: red; } }
