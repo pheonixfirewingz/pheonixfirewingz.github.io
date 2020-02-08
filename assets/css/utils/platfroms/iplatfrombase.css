@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ruge+Boogie&display=swap');
+
+@-webkit-keyframes spin 
+{
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin 
+{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom 
+{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom 
+{
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom 
+{ 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#page
+{
+  display: none;
+  text-align: center;
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+body
+{
+	background-color:black;
+	color:white;
+}
+#header
+{
+	border-top:solid gold;
+	color:white;
+	background-color:black;
+	text-align:center;
+	font-family: 'Clicker Script', cursive;
+}
+
+#overlay
+{
+	display:flex;
+	align-content:space-around;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#filler
+{
+	background-color: rgba(0,0,0,0.75);
+}
+.content h1
+{
+	font-family: 'Ruge Boogie', cursive;
+}
+
+.content
+{
+	padding: 3px;
+	width:33.3%;
+	text-align:center;
+}
+
+.content2
+{
+	padding: 3px;
+	width:33.3%;
+	text-align:center;
+}
+
+.content2 h4
+{
+	padding: 5px;
+}
+
+.content2 a
+{
+	text-decoration: none;
+	border: thin gold groove;
+	background: gray;
+	color:gold;
+	font-family: 'Ruge Boogie', cursive;
+	padding: 5px;
+	font-size: large;
+}
+#footer
+{
+	border-top:solid gold;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar 
+{
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar a 
+{
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.dropdown 
+{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn 
+{
+  cursor: pointer; 
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus 
+{
+  background-color: #7C7F48;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color:rgba(144,144,144,0.58);
+  z-index: 1;
+}
+
+.dropdown-content a
+{
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+  background-color: #ddd;
+}
+
+.show 
+{
+  display: block;
+}
+
+.slideshow-container 
+{
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides
+{
+  display: none;
+}
+
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+
+.prev
+{
+	float:left;
+	margin-left: -50%;
+}
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.text
+ {
+  color: #f2f2f2;
+  position: absolute;
+  text-align: center;
+}
+
+.numbertext 
+{
+  color: #f2f2f2;
+  position: absolute;
+}
+
+.dot 
+{
+  cursor: pointer;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover 
+{
+  background-color: #717171;
+}
+
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

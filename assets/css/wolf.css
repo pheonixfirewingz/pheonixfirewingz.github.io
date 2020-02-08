@@ -1,0 +1,37 @@
+@import url(utils/platfrom.css);
+
+.main_a
+{
+	text-align: center;
+}
+#wolf_one
+{
+	font-family: 'Ruge Boogie', cursive;
+	color: darkgoldenrod;
+	font-style: oblique;
+}
+
+.content2 h5
+{
+	text-decoration: underline;
+	font-style: oblique;
+	padding-bottom: 2%;
+}
+
+#list
+{
+	text-align:left; 
+	margin-left: 45%; 
+	list-style: none;
+}
+
+@media screen and (max-width: 470px)
+{
+	#list
+	{
+		text-align:left; 
+		margin-left: 25%; 
+		list-style: none;
+	}
+}
+
