@@ -1,0 +1,135 @@
+@import url("iplatfrombase.css");
+
+#loader 
+{
+  position: absolute;
+  top:25%;
+  left:30%;
+  z-index: 1;
+  margin: -5px 0 0 -5px;
+  border: 32px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 32px solid #4346DC;
+  width: 960px;
+  height: 960px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+#header
+{
+	height:150px;
+	font-size:40px;
+}
+
+#footer
+{
+	font-size:14px;
+}
+
+.content
+{
+	font-size:24px;
+}
+
+.text p
+{
+	font-size: 56px;
+	color:#001DFF;
+}
+.mySlides img
+{
+	height:900px;
+	width: 1200px;
+}
+
+.content2
+{
+	font-size:24px;
+}
+
+#filler
+{
+	height: 450px;
+}
+
+.navbar a 
+{
+  font-size: 32px;
+  padding: 14px 16px;
+}
+
+
+.dropdown .dropbtn 
+{
+  font-size: 32px;  
+  padding: 14px 16px;
+}
+
+.dropdown-content 
+{
+  min-width: 320px;
+  box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a 
+{
+  padding: 12px 16px;
+}
+
+.slideshow-container 
+{
+	max-width: 1750px;
+}
+
+.mySlides img
+{
+	margin-left:200px;
+}
+
+.prev, .next 
+{
+  top: 50%;
+  width: auto;
+  margin-top: -44px;
+  padding: 32px;
+  font-size: 36px;
+  transition: 0.6s ease;
+  border-radius: 0 6px 6px 0;
+}
+
+.next 
+{
+  right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text 
+{
+  font-size: 30px;
+  padding: 16px 24px;
+  bottom: 16px;
+  width: 100%;
+}
+
+.numbertext 
+{
+  font-size: 24px;
+  padding: 16px 24px;
+  top: 0;
+}
+
+.dot
+{
+  height: 30px;
+  width: 30px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+

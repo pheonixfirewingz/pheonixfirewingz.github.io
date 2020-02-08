@@ -1,0 +1,14 @@
+/*
+ *  this is only use to call the respective look base on the platfrom its on
+ */ 
+/*Phone*/
+@import url("platfroms/phone.css") screen and (max-width:768px);
+
+/*Table*/
+@import url("platfroms/table.css") screen and (min-width:768px) and (max-width:1024px);
+
+/*PC*/
+@import url("platfroms/pc.css") screen and (min-width:1024px) and (max-width:2560px);
+
+/*4K*/
+@import url("platfroms/4k.css") screen and (min-width:2560px);
