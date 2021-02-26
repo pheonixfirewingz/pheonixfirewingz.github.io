@@ -1,3 +1,16 @@
 {
-
+  "mcp-version": "faegrweh",
+  "yarn-version": "ophpoisjhrt",
+  "mappings": [
+    {
+      "type": "class",
+      "forge": "ResourceLocation",
+      "fabric": "Identifier"
+    },
+    {
+      "type": "method",
+      "forge": "fromAngle",
+      "fabric": "fromRotation"
+    }
+  ]
 }
