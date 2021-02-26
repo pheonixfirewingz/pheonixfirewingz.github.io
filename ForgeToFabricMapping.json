@@ -1,6 +1,6 @@
 {
-  "mcp-version": "faegrweh",
-  "yarn-version": "ophpoisjhrt",
+  "mcp_version": "faegrweh",
+  "yarn_version": "ophpoisjhrt",
   "mappings": [
     {
       "type": "class",
