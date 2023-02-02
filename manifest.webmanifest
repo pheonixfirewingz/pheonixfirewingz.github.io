@@ -1,0 +1,13 @@
+{
+	"background_color": "#D6D6D6",
+	"description": "This is Luke Shore's Blog Website",
+	"display": "browser",
+	"icons": {
+		"name": "favicon.ico"
+	},
+	"name": "Luke Shore's Blog",
+	"scope": "/",
+	"short_name": "Luke's Blog",
+	"start_url": "/",
+	"theme_color": "#D6D6D6"
+}
