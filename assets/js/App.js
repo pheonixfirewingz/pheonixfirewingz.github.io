@@ -1,3 +1,3 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("assets/js/LocalServer.js");
+    navigator.serviceWorker.register("../../LocalServer.js");
 }
