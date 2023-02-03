@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en-GB">
+
 <head>
 	<script src="assets/js/App.js" defer></script>
 	<meta charset="UTF-8">
 	<meta name="description" content="This is Luke Shore's Blog Website">
-	<meta http-equiv="Content-Security-Policy" content="object-src 'none';script-src https://pheonixfirewingz.github.io/; style-src https://pheonixfirewingz.github.io/ https://fonts.googleapis.com/;">
+	<meta http-equiv="Content-Security-Policy" content="object-src 'none';script-src https://pheonixfirewingz.github.io/ https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/; style-src https://pheonixfirewingz.github.io/ https://fonts.googleapis.com/;">
 	<meta name="keywords" content="Blog, Programming">
 	<meta name="author" content="Luke Shore">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +17,7 @@
 	<link rel="manifest" href="manifest.webmanifest">
 </head>
 
-<body>
+<body onbeforeunload="">
 	<header>
 		<div id="menu">
 			<img alt="Logo" height="2000" width="2000" src="assets/images/logo.svg" type="image/svg+xml">
@@ -26,13 +27,27 @@
 			</ol>
 		</div>
 	</header>
+	<div id="welcome">
+		<canvas id="openGL"></canvas>
+		<div class="widget">
+			<h1>Welcome To My Blog</h1>
+			<p>Checkout My Projects</p>
+		</div>
+	</div>
 	<footer>
 		<div id="texttop"></div>
-		<div id="projects"><h3>Projects</h3></div>
-		<div id="colum_two"><h3>Other</h3></div>
+		<div id="projects">
+			<h3>Projects</h3>
+		</div>
+		<div id="colum_two">
+			<h3>Other</h3>
+		</div>
 		<div id="copyright">
-			<h3>Copyright © 2023 Luke Shore. All rights reserved.</h3>
+			<h3>Copyright © 2023 <a href="https://pheonixfirewingz.github.io/">pheonixfirewingz.github.io</a>. All rights reserved.</h3>
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js" defer></script>
+	<script src="assets/js/Renderer.js" defer></script>
 </body>
+
 </html>

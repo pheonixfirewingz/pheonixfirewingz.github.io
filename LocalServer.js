@@ -4,6 +4,7 @@ const websiteFileRegistry = [
     "/LocalServer.js",
     "/manifest.webmanifest",
     "/assets/js/App.js",
+    "/assets/js/Renderer.js",
     "/assets/styles/style.css",
     "/assets/images/favicon.ico",
     "/assets/images/logo.svg",

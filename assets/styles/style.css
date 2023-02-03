@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;700;800;900&display=swap');
 
 :root {
-    --text_colour: 180,180,180;
-    --body_colour: 214,214,214;
-    --container_colour: 68,68,76;
-    --darks_colour: 11,9,9;
+    --text_colour: 180, 180, 180;
+    --body_colour: 214, 214, 214;
+    --container_colour: 68, 68, 76;
+    --darks_colour: 11, 9, 9;
     font-family: 'Inter', sans-serif !important;
     font-weight: 200;
 }
@@ -16,20 +16,25 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: calc(max(40px,(100vh / 100) * 5)) 1fr calc(max(200px,(100vh / 100) * 5));
+    grid-template-rows: calc(max(40px, (100vh / 100) * 5)) calc((100vh / 100) * 70) 1fr calc(max(200px, (100vh / 100) * 5));
     gap: 0px 0px;
     grid-template-areas:
         "header"
+        "welcome"
         "."
         "footer";
     height: 100vh;
 }
 
+h1, h2, h3, h4, p{
+    cursor:default;
+}
+
 
 header {
     grid-area: header;
-    --height: calc(max(40px,(100vh / 100) * 5));
-    --header_colour: rgba(var( --darks_colour),0.80);
+    --height: calc(max(40px, (100vh / 100) * 5));
+    --header_colour: rgba(var(--darks_colour), 0.80);
     background-color: var(--header_colour);
     color: rgb(var(--text_colour)) !important;
     height: var(--height);
@@ -54,42 +59,79 @@ header {
         ". .";
 }
 
-    #menu img {
-        margin-top: calc(var(--height) / 8);
-        border-radius: 50%;
-        height: calc(var(--height) - (var(--height) / 4));
-        width: calc(var(--height) - (var(--height) / 4));
-        opacity: 0.80;
-        box-shadow: 0 0 5px 6px rgba(255,255,255,.1);
-    }
+#menu img {
+    margin-top: calc(var(--height) / 8);
+    border-radius: 50%;
+    height: calc(var(--height) - (var(--height) / 4));
+    width: calc(var(--height) - (var(--height) / 4));
+    opacity: 0.80;
+    box-shadow: 0 0 5px 6px rgba(255, 255, 255, .1);
+}
 
-    #menu ol {
-        padding: 0;
-        float: left;
-        margin: 0;
-        list-style: none;
-        display: inline-flex;
-        flex-direction: row;
-        height: var(--height);
-        gap: 0px 10px;
-    }
+#menu ol {
+    padding: 0;
+    float: left;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    height: var(--height);
+    gap: 0px 10px;
+}
 
-        #menu ol li {
-            padding: calc(var(--height) / 16) calc(var(--height) / 8) 0 calc(var(--height) / 8);
-            font-size: calc(var(--height) - ((var(--height) / 100) * 30));
-        }
+#menu ol li {
+    padding: calc(var(--height) / 16) calc(var(--height) / 8) 0 calc(var(--height) / 8);
+    font-size: calc(var(--height) - ((var(--height) / 100) * 30));
+}
 
-            #menu ol li a {
-                padding: 0;
-                margin: 0;
-                height: inherit;
-                flex-shrink: 1;
-                color: rgb(var(--text_colour)) !important;
-                text-decoration: none;
-            }
+#menu ol li a {
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    flex-shrink: 1;
+    color: rgb(var(--text_colour)) !important;
+    text-decoration: none;
+}
+
+
+#welcome {
+    --height: calc(max(40px, (100vh / 100) * 5));
+    position: relative;
+    grid-area: welcome;
+    width: 100%;
+    height: 100%;
+}
+
+#openGL {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.widget
+{
+    width: 100%;
+    height: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.widget h1 {
+    color: rgb(var(--text_colour)) !important;
+    font-size: calc(var(--height) - ((var(--height) / 100) * 0));
+}
+
+.widget p {
+    color: rgb(var(--text_colour)) !important;
+    font-size: calc(var(--height) / 1.5);
+}
 
 footer {
-    --height: calc(max(200px,(100vh / 100) * 5));
+    --height: calc(max(200px, (100vh / 100) * 5));
     color: rgb(var(--text_colour)) !important;
     background-color: rgb(var(--darks_colour));
     text-align: center;
@@ -113,18 +155,27 @@ footer {
 }
 
 #copyright {
-    border-top: thin groove rgba(255,255,255,0.40);
+    border-top: thin groove rgba(255, 255, 255, 0.40);
     grid-area: copyright;
 }
 
-#copyright, #colum_two, #projects {
+#copyright,
+#colum_two,
+#projects {
     font-size: calc(var(--height) / 15) !important;
     padding: 0;
 }
 
-    #copyright h3 {
-        margin: 2.5px;
-    }
+#copyright h3 {
+    margin: 2.5px;
+}
+
+#copyright a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(var(--text_colour)) !important;
+    cursor:default;
+}
 
 #texttop {
     grid-area: texttop;
