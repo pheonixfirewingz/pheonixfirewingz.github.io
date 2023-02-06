@@ -2,10 +2,11 @@
 <html lang="en-GB">
 
 <head>
-	<script src="assets/js/App.js" defer></script>
+	<!--http://www.iana.org/assignments/media-types/media-types.xhtml#image-->
+	<!--<script src="assets/js/App.js" defer></script>-->
 	<meta charset="UTF-8">
 	<meta name="description" content="This is Luke Shore's Blog Website">
-	<meta http-equiv="Content-Security-Policy" content="object-src 'none';script-src https://pheonixfirewingz.github.io/ https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/; style-src https://pheonixfirewingz.github.io/ https://fonts.googleapis.com/;">
+	<!--<meta http-equiv="Content-Security-Policy" content="object-src 'none';script-src https://pheonixfirewingz.github.io/ https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/; style-src https://pheonixfirewingz.github.io/ https://fonts.googleapis.com/;">-->
 	<meta name="keywords" content="Blog, Programming">
 	<meta name="author" content="Luke Shore">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +15,10 @@
 	<title>Luke Shore's Blog</title>
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="assets/styles/style.css" type="text/css">
-	<link rel="manifest" href="manifest.webmanifest">
+	<!--<link rel="manifest" href="manifest.webmanifest">-->
 </head>
 
-<body onbeforeunload="">
+<body>
 	<header>
 		<div id="menu">
 			<img alt="Logo" height="2000" width="2000" src="assets/images/logo.svg" type="image/svg+xml">
@@ -32,6 +33,30 @@
 		<div class="widget">
 			<h1>Welcome To My Blog</h1>
 			<p>Checkout My Projects</p>
+		</div>
+	</div>
+	<div id="projects_cards_wheel">
+		<div id="card_animation">
+			<div class="card">
+				<img class="card_logo" alt="LibOS Logo" height="50" width="50" src="/assets/images/placeholder.png" type="image/png">
+				<h1 class="card_title">LibOS - <a href="libos.html">Operating System Abstraction</a></h1>
+				<p class="card_about">The goal of the LunaLux LibOS is to act as an abstraction layer for native Operating System APIS with a platform Vulkan Like Agnostic API to make cross platform development easier to achieve.</p>
+			</div>
+			<div class="card" id="card_two">
+				<img class="card_logo" alt="LibLunaScript Logo" height="50" width="50" src="/assets/images/placeholder.png" type="image/png">
+				<h1 class="card_title">LibLunaScript - <a href="libos.html">Scripting Language</a></h1>
+				<p class="card_about">This is the Compiler & LSVM For LunaLuxEngine's scripting Engine.</p>
+			</div>
+			<div class="card" id="card_three">
+				<img class="card_logo" alt="LibOS Logo" height="50" width="50" src="/assets/images/placeholder.png" type="image/png">
+				<h1 class="card_title">LibOS - <a href="libos.html">Operating System Abstraction</a></h1>
+				<p class="card_about">The goal of the LunaLux LibOS is to act as an abstraction layer for native Operating System APIS with a platform Vulkan Like Agnostic API to make cross platform development easier to achieve.</p>
+			</div>
+			<div class="card" id="card_four">
+				<img class="card_logo" alt="LibOS Logo" height="50" width="50" src="/assets/images/placeholder.png" type="image/png">
+				<h1 class="card_title">LibOS - <a href="libos.html">Operating System Abstraction</a></h1>
+				<p class="card_about">The goal of the LunaLux LibOS is to act as an abstraction layer for native Operating System APIS with a platform Vulkan Like Agnostic API to make cross platform development easier to achieve.</p>
+			</div>
 		</div>
 	</div>
 	<footer>
