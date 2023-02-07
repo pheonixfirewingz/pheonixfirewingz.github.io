@@ -1,13 +1,18 @@
 {
-    "theme_color": "#D6D6D6",
-    "background_color": "#D6D6D6",
-    "display": "minimal-ui",
-    "scope": "/",
-    "start_url": "/index.html",
-    "id": "/index.html",
-    "name": "Luke Shore's Blog",
-    "short_name": "Luke's Blog",
+    "background_color": "#d6d6d6",
     "description": "This is Luke Shore's Blog Website",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Luke Shore's Blog",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Luke's Blog",
+    "start_url": "/index.html",
+    "theme_color": "#D6D6D6",
+    "categories": [
+        "education",
+        "news"
+    ],
     "icons": [
         {
             "src": "assets/images/app/icon-192x192.png",
@@ -30,5 +35,7 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "lang": "en",
+    "display_override": []
 }

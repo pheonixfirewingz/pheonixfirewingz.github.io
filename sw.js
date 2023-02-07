@@ -17,14 +17,14 @@ const websiteFileRegistry = [
 self.addEventListener("install", event => {
     event.waitUntil(
         caches.open("application-caches").then(cache => {
-           return cache.addAll(websiteFileRegistry);
+            return cache.addAll(websiteFileRegistry);
         }));
     console.log("Service worker installed");
- });
+});
 
 self.addEventListener("activate", event => {
     console.log("Service worker activated");
- });
+});
 
 self.addEventListener("fetch", event => {
     event.respondWith((async () => {
@@ -36,5 +36,5 @@ self.addEventListener("fetch", event => {
         console.log(`[Service Worker] Caching new resource: ${event.request.url}`);
         cache.put(event.request, response.clone());
         return response;
-      })());
+    })());
 });
