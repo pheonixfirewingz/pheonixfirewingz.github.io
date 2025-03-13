@@ -1,5 +1,9 @@
+const BLACKLIST = [
+    /\/pages\//,
+    /\/audio\//
+];
+
 const HOSTNAME_WHITELIST = [
-    self.location.hostname,
     'fonts.gstatic.com',
     'fonts.googleapis.com',
     'cdn.jsdelivr.net'
@@ -17,9 +21,13 @@ const getFixedUrl = (req) => {
     return url.href;
 };
 
+function isBlacklisted(url) {
+    return BLACKLIST.some(regex => regex.test(url));
+}
+
 /**
  *  @Lifecycle Activate
- *  New one activated when old isnt being used.
+ *  New one activated when old isn't being used.
  *
  *  waitUntil(): activating ====> activated
  */
@@ -32,11 +40,21 @@ self.addEventListener('activate', event => { event.waitUntil(self.clients.claim(
  *  void respondWith(Promise<Response> r)
  */
 self.addEventListener('fetch', event => {
+    const requestUrl = new URL(event.request.url);
+
+    // Skip requests to the /pages directory and any audio files
+    if (isBlacklisted(requestUrl.pathname) ||
+        requestUrl.pathname.endsWith('.mp3') ||
+        requestUrl.pathname.endsWith('.wav') ||
+        requestUrl.pathname.endsWith('.ogg') ||
+        requestUrl.pathname.endsWith('.flac') ||
+        requestUrl.pathname.endsWith('.m4a')) {
+        return;
+    }
+
     // Skip some of cross-origin requests, like those for Google Analytics.
-    if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
+    if (HOSTNAME_WHITELIST.indexOf(requestUrl.hostname) === -1) {
         // Stale-while-revalidate
-        // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
-        // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
         const cached = caches.match(event.request);
         const fixedUrl = getFixedUrl(event.request);
         const fetched = fetch(fixedUrl, { cache: 'no-store' });
@@ -47,16 +65,16 @@ self.addEventListener('fetch', event => {
         // If there’s nothing in cache, wait for the fetch.
         // If neither yields a response, return offline pages.
         event.respondWith(
-        Promise.race([fetched.catch(_ => cached), cached])
-            .then(resp => resp || fetched)
-            .catch(_ => { /* eat any errors */ })
+            Promise.race([fetched.catch(_ => cached), cached])
+                .then(resp => resp || fetched)
+                .catch(_ => { /* eat any errors */ })
         );
 
         // Update the cache with the version we fetched (only for ok status)
         event.waitUntil(
-        Promise.all([fetchedCopy, caches.open("pwa-cache")])
-            .then(([response, cache]) => response.ok && cache.put(event.request, response))
-            .catch(err => { console.error("Failed to update cache: " + err.toString()); })
+            Promise.all([fetchedCopy, caches.open("pwa-cache")])
+                .then(([response, cache]) => response.ok && cache.put(event.request, response))
+                .catch(err => { console.error("Failed to update cache: " + err.toString()); })
         );
     }
 });

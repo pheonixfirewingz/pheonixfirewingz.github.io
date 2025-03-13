@@ -1,0 +1,25 @@
+@import url('common.css');
+.music-section {
+    margin-top: 30px;
+}
+
+.music-grid {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background: #282828;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: var(--accent-color) 0px 0px 10px;
+}
+
+.card img {
+    width: 120px;
+    border-radius: 8px;
+}
