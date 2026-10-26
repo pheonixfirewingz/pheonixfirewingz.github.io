@@ -25,9 +25,15 @@ body {
   background-color: var(--mat-sys-surface, #121212);
   color: var(--mat-sys-on-surface, #e0e0e0);
   font: var(--mat-sys-body-medium);
+  line-height: 1.5;
 
   margin: 0;
   height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  margin-top: 0;
 }
 
 /* Global scrollbar styling for sleek dark theme */

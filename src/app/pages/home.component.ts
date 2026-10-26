@@ -57,17 +57,23 @@ import { SITE_DATA } from '../site-data';
       color: #ffffff;
       padding: 0 24px;
       max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     .hero-title {
       font-size: clamp(2.5rem, 6vw, 4.5rem);
       font-weight: 700;
+      line-height: 1.15;
       letter-spacing: -0.02em;
-      margin: 0 0 12px;
+      margin: 0 0 16px;
       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     }
     .hero-subtitle {
       font-size: clamp(1.2rem, 3vw, 1.8rem);
       font-weight: 300;
+      line-height: 1.4;
       letter-spacing: 0.05em;
       margin: 0 0 32px;
       color: rgba(255, 255, 255, 0.9);
