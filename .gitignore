@@ -1,0 +1,39 @@
+extracted
+# Dependencies
+node_modules/
+
+# Angular build output
+dist/
+out-tsc/
+
+# Angular cache
+.angular/cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / editor state
+.idea/
+.vscode/
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tests
+coverage/
+
+# Temp
+*.tmp
+*.temp
+*.swp
+*~
