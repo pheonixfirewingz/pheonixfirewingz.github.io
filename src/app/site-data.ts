@@ -1,7 +1,7 @@
 export const SITE_DATA = {
   "siteTitle": "lukeshore - Programmer Portfolio",
   "sourceUrl": "https://lukesh0re.wixsite.com/lukeshore",
-  "ownerName": "Luke Shore (Luke Andrew Shore)",
+  "ownerName": "Luke Shore (Luke A. Shore)",
   "email": "lukethemodded@gmail.com",
   "copyright": "\u00a9 2023 Luke Shore",
   "navigation": [
@@ -59,7 +59,7 @@ export const SITE_DATA = {
       "title": "About | Lukeshore",
       "url": "https://lukesh0re.wixsite.com/lukeshore/about",
       "heading": "About",
-      "subheading": "Luke Shore (Luke Andrew Shore)",
+      "subheading": "Luke Shore (Luke A. Shore)",
       "paragraphs": [
         "I am Currently 22 years old. I am interested in the computer science sector of programming with the sub fields of Game Development, Game Engine Development, Operating System Development and Programming Language Human script to machine binary development. Furthermore, I am interested in Film-making and Telling Stories through this medium on the screen.",
         "Another digital interest I have is in telling stories through the medium of Film-making. In the past I spent 1 year creating videos for my YouTube channel. I had to write the scripts then I had to build the scenes in minecraft, record them and voice my character then chase the other Voice actors to get their lines voices, after that I had to edit the video together and overlay the graphics. I tried to do this within a week which caused me to be extremely burned out and stop after 1 year.",
