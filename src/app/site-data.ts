@@ -1,63 +1,56 @@
 export const SITE_DATA = {
   "siteTitle": "lukeshore - Programmer Portfolio",
-  "sourceUrl": "https://lukesh0re.wixsite.com/lukeshore",
   "ownerName": "Luke Shore (Luke A. Shore)",
-  "email": "lukethemodded@gmail.com",
+  "email": "Luke.a.shore@outlook.com",
   "copyright": "\u00a9 2023-2026 Luke Shore",
+  "birthYear": 2001,
   "navigation": [
     {
       "label": "Home",
-      "url": "https://lukesh0re.wixsite.com/lukeshore"
+      "route": "/"
     },
     {
       "label": "Portfolio",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio"
+      "route": "/portfolio"
     },
     {
       "label": "About",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/about"
+      "route": "/about"
     },
     {
       "label": "Blog",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/blog"
+      "route": "/blog"
     }
   ],
   "socialLinks": [
     {
       "platform": "YouTube",
       "url": "https://www.youtube.com/@phoenixfirewingz",
-      "iconLocalPath": "assets/icons/youtube.png",
-      "wixMediaId": "11062b_fe985b889c144b348eefc7bbc67018b4~mv2.png"
+      "iconLocalPath": "assets/icons/youtube.png"
     },
     {
       "platform": "Discord",
       "url": "https://discord.gg/yjMvdnWpkF",
-      "iconLocalPath": "assets/icons/discord.png",
-      "wixMediaId": "11062b_adb5b939714d4b898142c8bff0cc9346~mv2.png"
+      "iconLocalPath": "assets/icons/discord.png"
     },
     {
       "platform": "GitHub",
       "url": "https://github.com/pheonixfirewingz",
-      "iconLocalPath": "assets/icons/github.png",
-      "wixMediaId": "8f4f2e_4178d7e0d67b4d848302d62a892975a6~mv2.png"
+      "iconLocalPath": "assets/icons/github.png"
     }
   ],
   "pages": {
     "home": {
       "title": "lukeshore - Programmer Portfolio | Home",
-      "url": "https://lukesh0re.wixsite.com/lukeshore",
       "heading": "Luke Shore",
       "subheading": "My Digital Space",
       "heroImage": {
-        "wixMediaId": "nsplsh_1152cfbf26f24be880d9686af40ba47f~mv2.jpg",
         "localPath": "assets/pages/home-hero-fotis-fotopoulos.jpg",
-        "originalUrl": "https://static.wixstatic.com/media/nsplsh_1152cfbf26f24be880d9686af40ba47f~mv2.jpg",
         "alt": "Image by Fotis Fotopoulos"
       }
     },
     "about": {
       "title": "About | Lukeshore",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/about",
       "heading": "About",
       "subheading": "Luke Shore (Luke A. Shore)",
       "paragraphs": [
@@ -70,8 +63,8 @@ export const SITE_DATA = {
       "contactSection": {
         "heading": "Send Me A Message",
         "phone": "",
-        "email": "lukethemodded@gmail.com",
-        "emailMailtoHrefOnSite": "mailto:info@mysite.com",
+        "email": "Luke.a.shore@outlook.com",
+        "emailMailtoHrefOnSite": "mailto:Luke.a.shore@outlook.com",
         "formFields": [
           "First Name",
           "Last Name",
@@ -83,21 +76,16 @@ export const SITE_DATA = {
     },
     "portfolio": {
       "title": "Portfolio | Lukeshore",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio",
       "collectionTitle": "My Projects",
       "collectionSlug": "my-portfolio",
       "collectionDescription": "Welcome to my portfolio. Here you\u2019ll find a selection of my work. Explore my projects to learn more about what I do.",
       "collectionCoverImage": {
-        "wixMediaId": "8bb438_99176234824a4f0bbf65386dd1ca7149~mv2.jpg",
         "localPath": "assets/pages/portfolio-collection-cover.jpg",
-        "originalUrl": "https://static.wixstatic.com/media/8bb438_99176234824a4f0bbf65386dd1ca7149~mv2.jpg",
         "alt": "Hotels-Models14015 2_edit_new 2.jpg"
       }
     },
     "blog": {
       "title": "Blog | Lukeshore",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/blog",
-      "rssFeedUrl": "https://lukesh0re.wixsite.com/lukeshore/blog-feed.xml",
       "postCount": 8
     }
   },
@@ -106,7 +94,6 @@ export const SITE_DATA = {
       "index": 1,
       "id": "09d64ec6-6cf1-443b-b63e-e8b9c04047a0",
       "slug": "discout-squaresmash",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/discout-squaresmash",
       "title": "DISCout (SquareSmash)",
       "description": "DISCout is a .net 7 clone of the old game Brick Breaker.",
       "createdDate": "2023-06-15T11:14:59.692Z",
@@ -133,9 +120,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_8852bd22561049b184ddf10e9096c9f6~mv2.png",
           "localPath": "assets/portfolio/discout-squaresmash-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_8852bd22561049b184ddf10e9096c9f6~mv2.png",
           "title": "",
           "description": "",
           "width": 1920,
@@ -143,9 +128,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_ff222088e448456ab70bcfaa9474075e~mv2.png",
           "localPath": "assets/portfolio/discout-squaresmash-screenshot-35.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ff222088e448456ab70bcfaa9474075e~mv2.png",
           "title": "Screenshot (35)",
           "alt": "Screenshot (35)",
           "description": "",
@@ -154,9 +137,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_b96ecef2e6084bfab71b3f2cfe3cc9ea~mv2.png",
           "localPath": "assets/portfolio/discout-squaresmash-screenshot-34.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_b96ecef2e6084bfab71b3f2cfe3cc9ea~mv2.png",
           "title": "Screenshot (34)",
           "alt": "Screenshot (34)",
           "description": "",
@@ -169,7 +150,6 @@ export const SITE_DATA = {
       "index": 2,
       "id": "847f9527-f3ba-44dd-b201-9c2fb533eb1b",
       "slug": "softwarerenderer",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/softwarerenderer",
       "title": "SoftwareRenderer",
       "description": "This Experiment I'm learning how the GPU Renders Objects  to the screen I have chosen to try implement the ray/path tracing algorithm to achieve my goal.",
       "createdDate": "2023-03-13T11:47:10.115Z",
@@ -196,9 +176,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_3f146777b75141cdb6d2ef47663adafd~mv2.png",
           "localPath": "assets/portfolio/softwarerenderer-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3f146777b75141cdb6d2ef47663adafd~mv2.png",
           "title": "",
           "description": "",
           "width": 1920,
@@ -210,7 +188,6 @@ export const SITE_DATA = {
       "index": 3,
       "id": "af3e2885-09c5-4751-bca7-6092b436a2c5",
       "slug": "custom-sounds",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/custom-sounds",
       "title": "Custom Sounds",
       "description": "I created a modification for Minecraft that allows user to place a sound node block and add a custom sound node that isn't already in the game. This allows users to create more of an immersive feeling when playing Minecraft or Minecraft real world recreations for example a server that has re-created Alton Towers.",
       "createdDate": "2023-03-13T11:36:07.916Z",
@@ -237,9 +214,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "11062b_9d2793556aed4eecb2b149ecfdd7d693~mv2.jpg",
           "localPath": "assets/portfolio/custom-sounds-cover.jpg",
-          "originalUrl": "https://static.wixstatic.com/media/11062b_9d2793556aed4eecb2b149ecfdd7d693~mv2.jpg",
           "title": "",
           "description": "",
           "width": 5184,
@@ -251,7 +226,6 @@ export const SITE_DATA = {
       "index": 4,
       "id": "a628125b-07ba-48bf-aa94-b559490dbd4b",
       "slug": "liboswebserver-experiment",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/liboswebserver-experiment",
       "title": "LibOSWebServer - (Experiment)",
       "description": "This project allowed me to learn about how the browser communicates through network sockets and how the HTTP protocol works.",
       "createdDate": "2023-03-13T11:40:49.969Z",
@@ -278,9 +252,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_1c59a750894342dab8bcdc23db96f3a4~mv2.png",
           "localPath": "assets/portfolio/liboswebserver-experiment-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_1c59a750894342dab8bcdc23db96f3a4~mv2.png",
           "title": "",
           "description": "",
           "width": 1920,
@@ -292,7 +264,6 @@ export const SITE_DATA = {
       "index": 5,
       "id": "58cfe345-1ad3-416f-bcea-70c275f6161a",
       "slug": "openttd-renderer-rewrite-experiment",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/openttd-renderer-rewrite-experiment",
       "title": "OpenTTD-Renderer \"Rewrite\" (Experiment)",
       "description": "Since OpenTTD is getting old now it is not equipped to integrate future graphics API's so I decided to try and rewrite it so that it could support the new graphics API's. In order to do this I needed to write the code in a new repository and then import it in later on. I found this challenging and I am currently still working on this.",
       "createdDate": "2023-03-13T11:17:24.224Z",
@@ -314,9 +285,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_ecb5c903eb144da4b5b432c50bc306a0~mv2.jpg",
           "localPath": "assets/portfolio/openttd-renderer-rewrite-cover.jpg",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ecb5c903eb144da4b5b432c50bc306a0~mv2.jpg",
           "title": "",
           "description": "",
           "width": 329,
@@ -328,7 +297,6 @@ export const SITE_DATA = {
       "index": 6,
       "id": "eb832126-df59-4e04-afa2-0b46f55d5d69",
       "slug": "liblunascript",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/liblunascript",
       "title": "LibLunaScript",
       "description": "This is the Compiler & LSVM For LunaLuxEngine's scripting Engine.\n\nThe final over arching goal of LibOS, LibLunaScript and a few future project is for it to come together to make my latest Attempt at making a game engine.\n\nThe Syntax of the Language takes ques from c++20, Java 8 and Lua it's meant to make the language more ergonomic to Write. \n\nThe Compiler will Try at runtime to inline Any global's defined due to the fact that they are not allowed to be determined at runtime. For example \"uint64 x = 4 * 4\" would be calculated at compiled time to make it easier to speed up computer execution time aka. Runtime.",
       "createdDate": "2023-03-13T11:27:04.572Z",
@@ -351,9 +319,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "originalUrl": "https://static.wixstatic.com/media/nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "title": "",
           "description": "",
           "width": 7918,
@@ -365,7 +331,6 @@ export const SITE_DATA = {
       "index": 7,
       "id": "30e306e0-08fa-4b84-a7ca-d0deb655577e",
       "slug": "libos",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/libos",
       "title": "LibOS",
       "description": "The goal of the LunaLux LibOS is to act as an abstraction layer for native Operating System APIS with a platform Vulkan Like Agnostic API to make cross platform development easier to achieve. \nOriginally LibOS broke off from attempt 2 at writing the LunaLuxEngine code base but The reason I created LibOS from LunaLuxEngine attempt 2 was because I felt SDL2 was too bloated for the projects I wanted to create. But GLFW did not support things I wanted. I wanted a Lib that handled Windowing, FileManagement, and network access in one small binary, and allows me to write platform agnostic code that would be easy to port to different platforms. Originally I was going to add a graphics api but that would cause it to become as bloated as SDL2 so I plan to implement audio and graphics in a separate project.\nDue to the libraries cross platform single api nature the abstractions can not add any or a small amount of overhead this is not easy to do. It also forces me to write most of the code myself as adding third dependances to do some of the stuff for me\nA challenge on linux is setting up windowing with the new wayland api over XOrg due to the extra code required to get a window to draw to a screen. as of V1.0.0 wayland mouse support is not available.\n\nAs of Feb 27, 2023 I have being trying to add android support to the abstractions.",
       "createdDate": "2023-03-13T11:05:19.799Z",
@@ -392,9 +357,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "originalUrl": "https://static.wixstatic.com/media/nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "title": "",
           "description": "",
           "width": 7918,
@@ -402,9 +365,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "originalUrl": "https://static.wixstatic.com/media/nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
           "title": "Image by Annie Spratt",
           "alt": "Image by Annie Spratt",
           "description": "",
@@ -417,7 +378,6 @@ export const SITE_DATA = {
       "index": 8,
       "id": "9dee5c47-0c25-4b2f-b48e-ab1ce3f0d15a",
       "slug": "college-final-major-project-year-1-1",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/college-final-major-project-year-1-1",
       "title": "Copy of College Final Major Project (Year 2)",
       "description": "I worked on this project during my second year of college. In this I was making a design for a new game that I wanted to create called Storyteria. Unfortunately due to Covid-19 I was not able to create this project so I had to make a design page for the project.",
       "createdDate": "2023-03-02T10:31:38.523Z",
@@ -439,9 +399,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_06044bee6e0d498ab7c8b4855c166da1~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-2-storyteria-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_06044bee6e0d498ab7c8b4855c166da1~mv2.png",
           "title": "",
           "description": "",
           "width": 1431,
@@ -453,7 +411,6 @@ export const SITE_DATA = {
       "index": 9,
       "id": "1d27d389-176a-4284-adc9-85181263da24",
       "slug": "my-channel-phoenixfirewingz",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/my-channel-phoenixfirewingz",
       "title": "My Channel -  Phoenixfirewingz",
       "description": "One of the ventures I expedited in before the COVID-19 lock-downs was my YouTube and Minecraft role-play production. I was always interested in the creative process of writing a story. Since I love Minecraft I decided to do my story through said medium. During this time I learnt how to edit my videos, I practised my script writing and I learnt some new special effects techniques.",
       "createdDate": "2023-02-09T13:52:38.502Z",
@@ -476,9 +433,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_b674d073773541f4b009029851c888ac~mv2.png",
           "localPath": "assets/portfolio/phoenixfirewingz-mystery-of-magic-ep1-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_b674d073773541f4b009029851c888ac~mv2.png",
           "title": "Mystery of Magic Episode 1.",
           "description": "",
           "width": 1920,
@@ -486,9 +441,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_617037abcc6a49e29293c67da9f40275~mv2.png",
           "localPath": "assets/portfolio/phoenixfirewingz-youtube-homepage.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_617037abcc6a49e29293c67da9f40275~mv2.png",
           "title": "My YouTube Channel",
           "alt": "My YouTube Channel",
           "description": "This is a screenshot of my YouTube Home Page.",
@@ -497,9 +450,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_40e66e60a8254176be88223755d7a9d8~mv2.png",
           "localPath": "assets/portfolio/phoenixfirewingz-animation-snapshot.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_40e66e60a8254176be88223755d7a9d8~mv2.png",
           "title": "Snapshot of my Animation",
           "alt": "Snapshot of my Animation",
           "description": "",
@@ -512,7 +463,6 @@ export const SITE_DATA = {
       "index": 10,
       "id": "fe158b93-7614-426c-b8a8-101e8a05124e",
       "slug": "college-final-major-project-year-1",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/college-final-major-project-year-1",
       "title": "College Final Major Project (Year 1)",
       "description": "When I was in my third year of college I worked on this demo of a game I wanted to create. In each of the slides I explained what I was working on week by week. The game that I was creating was called Shadows where I designed all the settings and concept for the project. There is a YouTube video linked below which shows me working on the design work for the game.",
       "createdDate": "2023-03-02T10:28:55.346Z",
@@ -539,9 +489,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_5d71824b4b19463486faaefecd037731~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_5d71824b4b19463486faaefecd037731~mv2.png",
           "title": "",
           "description": "",
           "width": 1436,
@@ -549,9 +497,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_59a786c98a8547dfbbc20c789e238b94~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-slide-2.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_59a786c98a8547dfbbc20c789e238b94~mv2.png",
           "title": "",
           "alt": "",
           "description": "",
@@ -560,9 +506,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_c36f0d11bab9449dab4dbccc92d180c2~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-12.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_c36f0d11bab9449dab4dbccc92d180c2~mv2.png",
           "title": "Screenshot (12)",
           "alt": "Screenshot (12)",
           "description": "",
@@ -571,9 +515,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_8e495d506d664fa6a8f2aea71b7edb72~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-11.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_8e495d506d664fa6a8f2aea71b7edb72~mv2.png",
           "title": "Screenshot (11)",
           "alt": "Screenshot (11)",
           "description": "",
@@ -582,9 +524,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_fec4da24914c46088923c60442f90308~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-10.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_fec4da24914c46088923c60442f90308~mv2.png",
           "title": "Screenshot (10)",
           "alt": "Screenshot (10)",
           "description": "",
@@ -593,9 +533,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_35cf976233ff42689ae6f45dd92218e7~mv2.png",
           "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-8.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_35cf976233ff42689ae6f45dd92218e7~mv2.png",
           "title": "Screenshot (8)",
           "alt": "Screenshot (8)",
           "description": "",
@@ -608,7 +546,6 @@ export const SITE_DATA = {
       "index": 11,
       "id": "85f154b8-8688-4e97-a499-0e696314398d",
       "slug": "firstgameengine",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/portfolio-collections/my-portfolio/firstgameengine",
       "title": "FirstGameEngine",
       "description": "The first game engine that I made was written in Java. I did this because I am fascinated with the concept of creating a version of Minecraft that can be modded easily. From here it lead me on to creating LunaLuxEngine. Unfortunately the code for Java Attempts 1 - 4 and C++ Attempt 1 code bases has been lost.",
       "createdDate": "2023-03-02T10:08:27.413Z",
@@ -630,9 +567,7 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "wixMediaId": "8f4f2e_c0bce161079e4cdda973d693c5e847a1~mv2.png",
           "localPath": "assets/portfolio/firstgameengine-cover.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_c0bce161079e4cdda973d693c5e847a1~mv2.png",
           "title": "",
           "description": "",
           "width": 1920,
@@ -640,9 +575,7 @@ export const SITE_DATA = {
         },
         {
           "role": "gallery",
-          "wixMediaId": "8f4f2e_3bdca9c18b954fba87458ee0cf182d25~mv2.png",
           "localPath": "assets/portfolio/firstgameengine-terraingen.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3bdca9c18b954fba87458ee0cf182d25~mv2.png",
           "title": "TerrainGen",
           "alt": "TerrainGen",
           "description": "",
@@ -656,7 +589,6 @@ export const SITE_DATA = {
     {
       "id": "9147335b-1fd7-4ca0-98c2-447bb4974c05",
       "slug": "development-diary-evolving-to-version-3-graphical-enhancements-and-challenges",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/development-diary-evolving-to-version-3-graphical-enhancements-and-challenges",
       "title": "Development Diary: Evolving to Version 3 - Graphical Enhancements and Challenges",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -687,7 +619,6 @@ export const SITE_DATA = {
     {
       "id": "0ee0e1cb-13d9-4780-a590-781a0fb47642",
       "slug": "development-diary-discout-v2-from-features-to-optimization",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/development-diary-discout-v2-from-features-to-optimization",
       "title": "Development Diary: DISCout v2 - From Features to Optimization",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -726,7 +657,6 @@ export const SITE_DATA = {
     {
       "id": "dbc5791a-a2e4-41c5-a478-de671abddd65",
       "slug": "building-a-2d-brick-breaker-game-a-week-in-the-life-of-a-game-developer",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/building-a-2d-brick-breaker-game-a-week-in-the-life-of-a-game-developer",
       "title": "Building a 2D Brick Breaker Game: A Week in the Life of a Game Developer",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -769,7 +699,6 @@ export const SITE_DATA = {
     {
       "id": "c5a7d267-1349-44eb-9c87-5cae4712a2a3",
       "slug": "setting-up-a-mysql-database-for-a-multiplayer-game",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/setting-up-a-mysql-database-for-a-multiplayer-game",
       "title": "Setting Up a MySQL Database for a Multiplayer Game",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -800,7 +729,6 @@ export const SITE_DATA = {
     {
       "id": "7283843f-b61d-4217-843c-4d75debacd32",
       "slug": "lunascript-plugin-development-progress",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/lunascript-plugin-development-progress",
       "title": "LunaScript Plugin Development Progress",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -843,7 +771,6 @@ export const SITE_DATA = {
     {
       "id": "09a95399-2ebb-4ef2-82fe-b710dca20078",
       "slug": "week-in-review-custom-programming-language-and-visual-extension-plugin-development",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/week-in-review-custom-programming-language-and-visual-extension-plugin-development",
       "title": "Week in Review: Custom Programming Language and Visual Extension Plugin Development",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -879,7 +806,6 @@ export const SITE_DATA = {
         {
           "type": "image",
           "localPath": "assets/blog/week-in-review-vscode-plugin-syntax.png",
-          "wixMediaId": "8f4f2e_3d23a4c8101f410a8d3f2945697cf0d6~mv2.png",
           "alt": ""
         },
         {
@@ -897,9 +823,7 @@ export const SITE_DATA = {
       ],
       "images": [
         {
-          "wixMediaId": "8f4f2e_3d23a4c8101f410a8d3f2945697cf0d6~mv2.png",
           "localPath": "assets/blog/week-in-review-vscode-plugin-syntax.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3d23a4c8101f410a8d3f2945697cf0d6~mv2.png",
           "alt": ""
         }
       ]
@@ -907,7 +831,6 @@ export const SITE_DATA = {
     {
       "id": "3243cdb9-e0eb-483f-9a22-846628b3e9fd",
       "slug": "debugging-a-software-renderer-a-week-in-review",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/debugging-a-software-renderer-a-week-in-review",
       "title": "Debugging a Software Renderer: A Week in Review",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -935,7 +858,6 @@ export const SITE_DATA = {
         {
           "type": "image",
           "localPath": "assets/blog/debugging-a-software-renderer-vertex-fix.png",
-          "wixMediaId": "8f4f2e_6ba15ac04ad2477e8f4ca353b3b4bae9~mv2.png",
           "alt": ""
         },
         {
@@ -949,7 +871,6 @@ export const SITE_DATA = {
         {
           "type": "image",
           "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-1.png",
-          "wixMediaId": "8f4f2e_60536ed850d94fdab7c3be48469f21bc~mv2.png",
           "alt": ""
         },
         {
@@ -959,7 +880,6 @@ export const SITE_DATA = {
         {
           "type": "image",
           "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-2.png",
-          "wixMediaId": "8f4f2e_ddb5cf4489614b76ae3224b669254685~mv2.png",
           "alt": ""
         },
         {
@@ -969,21 +889,15 @@ export const SITE_DATA = {
       ],
       "images": [
         {
-          "wixMediaId": "8f4f2e_6ba15ac04ad2477e8f4ca353b3b4bae9~mv2.png",
           "localPath": "assets/blog/debugging-a-software-renderer-vertex-fix.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_6ba15ac04ad2477e8f4ca353b3b4bae9~mv2.png",
           "alt": ""
         },
         {
-          "wixMediaId": "8f4f2e_60536ed850d94fdab7c3be48469f21bc~mv2.png",
           "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-1.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_60536ed850d94fdab7c3be48469f21bc~mv2.png",
           "alt": ""
         },
         {
-          "wixMediaId": "8f4f2e_ddb5cf4489614b76ae3224b669254685~mv2.png",
           "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-2.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ddb5cf4489614b76ae3224b669254685~mv2.png",
           "alt": ""
         }
       ]
@@ -991,7 +905,6 @@ export const SITE_DATA = {
     {
       "id": "0dc0a20c-fa47-4eb2-ae0d-1fa7c6b45f32",
       "slug": "building-a-software-renderer-lessons-learned",
-      "url": "https://lukesh0re.wixsite.com/lukeshore/post/building-a-software-renderer-lessons-learned",
       "title": "Building a Software Renderer: Lessons Learned",
       "author": "pheonix fire wings",
       "authorSlug": "lukethemodded",
@@ -1023,7 +936,6 @@ export const SITE_DATA = {
         {
           "type": "image",
           "localPath": "assets/blog/building-a-software-renderer-triangle.png",
-          "wixMediaId": "8f4f2e_378989b35972485d817a71f58471e960~mv2.png",
           "alt": ""
         },
         {
@@ -1057,9 +969,7 @@ export const SITE_DATA = {
       ],
       "images": [
         {
-          "wixMediaId": "8f4f2e_378989b35972485d817a71f58471e960~mv2.png",
           "localPath": "assets/blog/building-a-software-renderer-triangle.png",
-          "originalUrl": "https://static.wixstatic.com/media/8f4f2e_378989b35972485d817a71f58471e960~mv2.png",
           "alt": ""
         }
       ]
@@ -1067,184 +977,128 @@ export const SITE_DATA = {
   ],
   "mediaAssets": [
     {
-      "wixMediaId": "11062b_9d2793556aed4eecb2b149ecfdd7d693~mv2.jpg",
       "localPath": "assets/portfolio/custom-sounds-cover.jpg",
-      "originalUrl": "https://static.wixstatic.com/media/11062b_9d2793556aed4eecb2b149ecfdd7d693~mv2.jpg",
       "bytes": 2830445
     },
     {
-      "wixMediaId": "11062b_adb5b939714d4b898142c8bff0cc9346~mv2.png",
       "localPath": "assets/icons/discord.png",
-      "originalUrl": "https://static.wixstatic.com/media/11062b_adb5b939714d4b898142c8bff0cc9346~mv2.png",
       "bytes": 2991
     },
     {
-      "wixMediaId": "11062b_fe985b889c144b348eefc7bbc67018b4~mv2.png",
       "localPath": "assets/icons/youtube.png",
-      "originalUrl": "https://static.wixstatic.com/media/11062b_fe985b889c144b348eefc7bbc67018b4~mv2.png",
       "bytes": 1863
     },
     {
-      "wixMediaId": "8bb438_99176234824a4f0bbf65386dd1ca7149~mv2.jpg",
       "localPath": "assets/pages/portfolio-collection-cover.jpg",
-      "originalUrl": "https://static.wixstatic.com/media/8bb438_99176234824a4f0bbf65386dd1ca7149~mv2.jpg",
       "bytes": 656380
     },
     {
-      "wixMediaId": "8f4f2e_06044bee6e0d498ab7c8b4855c166da1~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-2-storyteria-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_06044bee6e0d498ab7c8b4855c166da1~mv2.png",
       "bytes": 171022
     },
     {
-      "wixMediaId": "8f4f2e_1c59a750894342dab8bcdc23db96f3a4~mv2.png",
       "localPath": "assets/portfolio/liboswebserver-experiment-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_1c59a750894342dab8bcdc23db96f3a4~mv2.png",
       "bytes": 179175
     },
     {
-      "wixMediaId": "8f4f2e_35cf976233ff42689ae6f45dd92218e7~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-8.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_35cf976233ff42689ae6f45dd92218e7~mv2.png",
       "bytes": 855851
     },
     {
-      "wixMediaId": "8f4f2e_378989b35972485d817a71f58471e960~mv2.png",
       "localPath": "assets/blog/building-a-software-renderer-triangle.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_378989b35972485d817a71f58471e960~mv2.png",
       "bytes": 11104
     },
     {
-      "wixMediaId": "8f4f2e_3bdca9c18b954fba87458ee0cf182d25~mv2.png",
       "localPath": "assets/portfolio/firstgameengine-terraingen.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3bdca9c18b954fba87458ee0cf182d25~mv2.png",
       "bytes": 210529
     },
     {
-      "wixMediaId": "8f4f2e_3d23a4c8101f410a8d3f2945697cf0d6~mv2.png",
       "localPath": "assets/blog/week-in-review-vscode-plugin-syntax.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3d23a4c8101f410a8d3f2945697cf0d6~mv2.png",
       "bytes": 21983
     },
     {
-      "wixMediaId": "8f4f2e_3f146777b75141cdb6d2ef47663adafd~mv2.png",
       "localPath": "assets/portfolio/softwarerenderer-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_3f146777b75141cdb6d2ef47663adafd~mv2.png",
       "bytes": 270042
     },
     {
-      "wixMediaId": "8f4f2e_40e66e60a8254176be88223755d7a9d8~mv2.png",
       "localPath": "assets/portfolio/phoenixfirewingz-animation-snapshot.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_40e66e60a8254176be88223755d7a9d8~mv2.png",
       "bytes": 2083616
     },
     {
-      "wixMediaId": "8f4f2e_4178d7e0d67b4d848302d62a892975a6~mv2.png",
       "localPath": "assets/icons/github.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_4178d7e0d67b4d848302d62a892975a6~mv2.png",
       "bytes": 38375
     },
     {
-      "wixMediaId": "8f4f2e_59a786c98a8547dfbbc20c789e238b94~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-slide-2.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_59a786c98a8547dfbbc20c789e238b94~mv2.png",
       "bytes": 606088
     },
     {
-      "wixMediaId": "8f4f2e_5d71824b4b19463486faaefecd037731~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_5d71824b4b19463486faaefecd037731~mv2.png",
       "bytes": 920498
     },
     {
-      "wixMediaId": "8f4f2e_60536ed850d94fdab7c3be48469f21bc~mv2.png",
       "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-1.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_60536ed850d94fdab7c3be48469f21bc~mv2.png",
       "bytes": 29590
     },
     {
-      "wixMediaId": "8f4f2e_617037abcc6a49e29293c67da9f40275~mv2.png",
       "localPath": "assets/portfolio/phoenixfirewingz-youtube-homepage.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_617037abcc6a49e29293c67da9f40275~mv2.png",
       "bytes": 715801
     },
     {
-      "wixMediaId": "8f4f2e_6ba15ac04ad2477e8f4ca353b3b4bae9~mv2.png",
       "localPath": "assets/blog/debugging-a-software-renderer-vertex-fix.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_6ba15ac04ad2477e8f4ca353b3b4bae9~mv2.png",
       "bytes": 10912
     },
     {
-      "wixMediaId": "8f4f2e_8852bd22561049b184ddf10e9096c9f6~mv2.png",
       "localPath": "assets/portfolio/discout-squaresmash-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_8852bd22561049b184ddf10e9096c9f6~mv2.png",
       "bytes": 252461
     },
     {
-      "wixMediaId": "8f4f2e_8e495d506d664fa6a8f2aea71b7edb72~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-11.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_8e495d506d664fa6a8f2aea71b7edb72~mv2.png",
       "bytes": 308868
     },
     {
-      "wixMediaId": "8f4f2e_b674d073773541f4b009029851c888ac~mv2.png",
       "localPath": "assets/portfolio/phoenixfirewingz-mystery-of-magic-ep1-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_b674d073773541f4b009029851c888ac~mv2.png",
       "bytes": 923859
     },
     {
-      "wixMediaId": "8f4f2e_b96ecef2e6084bfab71b3f2cfe3cc9ea~mv2.png",
       "localPath": "assets/portfolio/discout-squaresmash-screenshot-34.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_b96ecef2e6084bfab71b3f2cfe3cc9ea~mv2.png",
       "bytes": 242930
     },
     {
-      "wixMediaId": "8f4f2e_c0bce161079e4cdda973d693c5e847a1~mv2.png",
       "localPath": "assets/portfolio/firstgameengine-cover.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_c0bce161079e4cdda973d693c5e847a1~mv2.png",
       "bytes": 207365
     },
     {
-      "wixMediaId": "8f4f2e_c36f0d11bab9449dab4dbccc92d180c2~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-12.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_c36f0d11bab9449dab4dbccc92d180c2~mv2.png",
       "bytes": 478498
     },
     {
-      "wixMediaId": "8f4f2e_ddb5cf4489614b76ae3224b669254685~mv2.png",
       "localPath": "assets/blog/debugging-a-software-renderer-lighting-attempt-2.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ddb5cf4489614b76ae3224b669254685~mv2.png",
       "bytes": 18126
     },
     {
-      "wixMediaId": "8f4f2e_ecb5c903eb144da4b5b432c50bc306a0~mv2.jpg",
       "localPath": "assets/portfolio/openttd-renderer-rewrite-cover.jpg",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ecb5c903eb144da4b5b432c50bc306a0~mv2.jpg",
       "bytes": 15757
     },
     {
-      "wixMediaId": "8f4f2e_fec4da24914c46088923c60442f90308~mv2.png",
       "localPath": "assets/portfolio/college-fmp-year-1-shadows-screenshot-10.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_fec4da24914c46088923c60442f90308~mv2.png",
       "bytes": 392109
     },
     {
-      "wixMediaId": "8f4f2e_ff222088e448456ab70bcfaa9474075e~mv2.png",
       "localPath": "assets/portfolio/discout-squaresmash-screenshot-35.png",
-      "originalUrl": "https://static.wixstatic.com/media/8f4f2e_ff222088e448456ab70bcfaa9474075e~mv2.png",
       "bytes": 233239
     },
     {
-      "wixMediaId": "nsplsh_1152cfbf26f24be880d9686af40ba47f~mv2.jpg",
       "localPath": "assets/pages/home-hero-fotis-fotopoulos.jpg",
-      "originalUrl": "https://static.wixstatic.com/media/nsplsh_1152cfbf26f24be880d9686af40ba47f~mv2.jpg",
       "bytes": 3054046
     },
     {
-      "wixMediaId": "nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
       "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-      "originalUrl": "https://static.wixstatic.com/media/nsplsh_3474eb5599ad43c9b2675cc0a77a02cf~mv2.jpg",
       "bytes": 4960270
     }
   ]
 };
+
+export function getCurrentAge(birthYear: number = SITE_DATA.birthYear): number {
+  return new Date().getFullYear() - birthYear;
+}

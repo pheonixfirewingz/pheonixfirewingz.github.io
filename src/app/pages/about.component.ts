@@ -5,7 +5,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
-import { SITE_DATA } from '../site-data';
+import { SITE_DATA, getCurrentAge } from '../site-data';
 
 @Component({
   selector: 'app-about',
@@ -217,7 +217,10 @@ import { SITE_DATA } from '../site-data';
 })
 export class AboutComponent {
   protected readonly name = SITE_DATA.pages.about.subheading;
-  protected readonly paragraphs = SITE_DATA.pages.about.paragraphs;
+  protected readonly currentAge = getCurrentAge();
+  protected readonly paragraphs = SITE_DATA.pages.about.paragraphs.map(p =>
+    p.replace(/I am Currently \d+ years old\./i, `I am Currently ${this.currentAge} years old.`)
+  );
   protected readonly email = SITE_DATA.pages.about.contactSection.email;
   protected readonly socialLinks = SITE_DATA.socialLinks;
 
