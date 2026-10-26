@@ -41,7 +41,7 @@ import { SITE_DATA } from './site-data';
     <footer class="app-footer">
       <div class="footer-container">
         <div class="footer-copy">
-          {{ copyright }} · Powered and secured by Angular &amp; Material
+          {{ copyright }}
         </div>
         <div class="footer-social">
           @for (social of socialLinks; track social.platform) {
@@ -123,43 +123,67 @@ import { SITE_DATA } from './site-data';
     }
     .social-btn:hover {
       background: rgba(255, 255, 255, 0.15);
-      transform: scale(1.1);
+      transform: translateY(-2px);
     }
     .social-img {
       width: 18px;
       height: 18px;
-      object-fit: contain;
+      display: block;
+      filter: invert(1);
     }
     .main-content {
       flex: 1;
     }
     .app-footer {
+      border-top: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
       background: var(--mat-sys-surface-container-lowest, #0a0a0a);
-      border-top: 1px solid var(--mat-sys-outline-variant, #222222);
       padding: 24px 16px;
-      margin-top: auto;
     }
     .footer-container {
       max-width: 1200px;
       margin: 0 auto;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
       flex-wrap: wrap;
       gap: 16px;
     }
     .footer-copy {
-      font-size: 0.85rem;
+      font-size: 0.875rem;
       color: var(--mat-sys-on-surface-variant, #888888);
     }
     .footer-social {
       display: flex;
+      align-items: center;
       gap: 12px;
+    }
+    @media (max-width: 680px) {
+      .main-toolbar {
+        padding: 0 8px;
+      }
+      .brand-name {
+        font-size: 1.15rem;
+      }
+      .nav-links {
+        margin-right: 8px;
+        gap: 0;
+      }
+      .nav-links a {
+        padding: 0 8px;
+        font-size: 0.85rem;
+      }
+      .social-bar {
+        display: none;
+      }
+      .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   `],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class App {
-  protected readonly socialLinks = SITE_DATA.socialLinks;
   protected readonly copyright = SITE_DATA.copyright;
+  protected readonly socialLinks = SITE_DATA.socialLinks;
 }

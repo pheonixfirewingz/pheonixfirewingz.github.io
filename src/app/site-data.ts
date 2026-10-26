@@ -3,7 +3,7 @@ export const SITE_DATA = {
   "sourceUrl": "https://lukesh0re.wixsite.com/lukeshore",
   "ownerName": "Luke Shore (Luke A. Shore)",
   "email": "lukethemodded@gmail.com",
-  "copyright": "\u00a9 2023 Luke Shore",
+  "copyright": "\u00a9 2023-2026 Luke Shore",
   "navigation": [
     {
       "label": "Home",
