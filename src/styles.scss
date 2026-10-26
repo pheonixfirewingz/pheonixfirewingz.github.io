@@ -9,6 +9,7 @@ html {
   @include mat.theme(
     (
       color: (
+        theme-type: dark,
         primary: mat.$azure-palette,
         tertiary: mat.$blue-palette,
       ),
@@ -19,14 +20,28 @@ html {
 }
 
 body {
-  color-scheme: light;
+  color-scheme: dark;
 
-  background-color: var(--mat-sys-surface);
-  color: var(--mat-sys-on-surface);
+  background-color: var(--mat-sys-surface, #121212);
+  color: var(--mat-sys-on-surface, #e0e0e0);
   font: var(--mat-sys-body-medium);
 
   margin: 0;
   height: 100%;
 }
 
-/* Add global styles below this line. */
+/* Global scrollbar styling for sleek dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--mat-sys-surface-container-low, #181818);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--mat-sys-outline-variant, #333333);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mat-sys-outline, #555555);
+}

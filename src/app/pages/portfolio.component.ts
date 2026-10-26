@@ -71,7 +71,7 @@ import { SITE_DATA } from '../site-data';
     }
     .page-desc {
       font-size: 1.15rem;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #a0a0a0);
       line-height: 1.6;
       margin: 0;
     }
@@ -91,16 +91,18 @@ import { SITE_DATA } from '../site-data';
       height: 100%;
       border-radius: 12px;
       overflow: hidden;
+      background: var(--mat-sys-surface-container-low, #181818);
+      border-color: var(--mat-sys-outline-variant, #2a2a2a);
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .project-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     }
     .card-image-wrap {
       width: 100%;
       height: 200px;
-      background: #111;
+      background: #000;
       overflow: hidden;
     }
     .project-thumb {
@@ -123,7 +125,7 @@ import { SITE_DATA } from '../site-data';
     .project-snippet {
       font-size: 0.95rem;
       line-height: 1.55;
-      color: var(--mat-sys-on-surface-variant, #555);
+      color: var(--mat-sys-on-surface-variant, #b5b5b5);
       margin: 0;
       display: -webkit-box;
       -webkit-line-clamp: 3;

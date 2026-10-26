@@ -58,13 +58,15 @@ import { SITE_DATA } from './site-data';
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      background-color: var(--mat-sys-surface, #121212);
+      color: var(--mat-sys-on-surface, #e0e0e0);
     }
     .app-header {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: var(--mat-sys-surface, #ffffff);
-      border-bottom: 1px solid var(--mat-sys-outline-variant, #e5e5e5);
+      background: var(--mat-sys-surface-container-lowest, #0f0f0f);
+      border-bottom: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
     }
     .main-toolbar {
       max-width: 1200px;
@@ -77,7 +79,7 @@ import { SITE_DATA } from './site-data';
     }
     .brand-link {
       text-decoration: none;
-      color: var(--mat-sys-on-surface);
+      color: var(--mat-sys-on-surface, #ffffff);
       display: flex;
       align-items: center;
       gap: 8px;
@@ -98,10 +100,10 @@ import { SITE_DATA } from './site-data';
     .nav-links a {
       font-size: 0.95rem;
       font-weight: 500;
-      color: var(--mat-sys-on-surface-variant);
+      color: var(--mat-sys-on-surface-variant, #b0b0b0);
     }
     .nav-links a.active {
-      color: var(--mat-sys-primary);
+      color: var(--mat-sys-primary, #90caf9);
       font-weight: 600;
     }
     .social-bar {
@@ -116,23 +118,24 @@ import { SITE_DATA } from './site-data';
       width: 32px;
       height: 32px;
       border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
       transition: background 0.2s, transform 0.2s;
     }
     .social-btn:hover {
-      background: var(--mat-sys-surface-container, #f0f0f0);
+      background: rgba(255, 255, 255, 0.15);
       transform: scale(1.1);
     }
     .social-img {
-      width: 20px;
-      height: 20px;
+      width: 18px;
+      height: 18px;
       object-fit: contain;
     }
     .main-content {
       flex: 1;
     }
     .app-footer {
-      background: var(--mat-sys-surface-container-low, #f8f8f8);
-      border-top: 1px solid var(--mat-sys-outline-variant, #e5e5e5);
+      background: var(--mat-sys-surface-container-lowest, #0a0a0a);
+      border-top: 1px solid var(--mat-sys-outline-variant, #222222);
       padding: 24px 16px;
       margin-top: auto;
     }
@@ -147,7 +150,7 @@ import { SITE_DATA } from './site-data';
     }
     .footer-copy {
       font-size: 0.85rem;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #888888);
     }
     .footer-social {
       display: flex;

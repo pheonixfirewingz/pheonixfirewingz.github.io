@@ -89,7 +89,7 @@ import { SITE_DATA } from '../site-data';
     }
     .project-header {
       margin-bottom: 36px;
-      border-bottom: 1px solid var(--mat-sys-outline-variant, #e0e0e0);
+      border-bottom: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
       padding-bottom: 24px;
     }
     .project-title {
@@ -109,18 +109,18 @@ import { SITE_DATA } from '../site-data';
       gap: 6px;
       padding: 6px 14px;
       border-radius: 8px;
-      background: var(--mat-sys-surface-container, #f4f4f4);
+      background: var(--mat-sys-surface-container, #242424);
       font-size: 0.9rem;
     }
     .detail-label {
       font-weight: 600;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #a0a0a0);
     }
     .detail-value {
-      color: var(--mat-sys-on-surface);
+      color: var(--mat-sys-on-surface, #e0e0e0);
     }
     .detail-link {
-      color: var(--mat-sys-primary);
+      color: var(--mat-sys-primary, #90caf9);
       text-decoration: none;
       display: inline-flex;
       align-items: center;
@@ -145,7 +145,7 @@ import { SITE_DATA } from '../site-data';
       font-size: 1.1rem;
       line-height: 1.8;
       white-space: pre-line;
-      color: var(--mat-sys-on-surface-variant, #444);
+      color: var(--mat-sys-on-surface-variant, #c5c5c5);
       margin-bottom: 40px;
     }
     .gallery-grid {
@@ -156,7 +156,8 @@ import { SITE_DATA } from '../site-data';
     .gallery-card {
       border-radius: 12px;
       overflow: hidden;
-      background: #111;
+      background: #000;
+      border-color: var(--mat-sys-outline-variant, #2a2a2a);
     }
     .gallery-img {
       width: 100%;
@@ -164,20 +165,21 @@ import { SITE_DATA } from '../site-data';
       display: block;
       max-height: 700px;
       object-fit: contain;
-      background: #111;
+      background: #000;
     }
     .gallery-caption {
       padding: 14px 16px;
-      background: var(--mat-sys-surface);
+      background: var(--mat-sys-surface-container-low, #181818);
     }
     .img-title {
       font-weight: 600;
       font-size: 1rem;
       margin-bottom: 4px;
+      color: var(--mat-sys-on-surface, #ffffff);
     }
     .img-desc {
       font-size: 0.9rem;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #999999);
     }
     .not-found-page {
       text-align: center;

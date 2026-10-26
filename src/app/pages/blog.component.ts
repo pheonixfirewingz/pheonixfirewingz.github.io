@@ -62,7 +62,7 @@ import { SITE_DATA } from '../site-data';
     }
     .blog-header {
       margin-bottom: 40px;
-      border-bottom: 1px solid var(--mat-sys-outline-variant, #e0e0e0);
+      border-bottom: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
       padding-bottom: 24px;
     }
     .page-title {
@@ -73,7 +73,7 @@ import { SITE_DATA } from '../site-data';
     }
     .page-desc {
       font-size: 1.15rem;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #a0a0a0);
       margin: 0;
     }
     .posts-list {
@@ -84,11 +84,13 @@ import { SITE_DATA } from '../site-data';
     .post-card {
       border-radius: 12px;
       overflow: hidden;
+      background: var(--mat-sys-surface-container-low, #181818);
+      border-color: var(--mat-sys-outline-variant, #2a2a2a);
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .post-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     }
     .post-inner {
       display: flex;
@@ -106,7 +108,7 @@ import { SITE_DATA } from '../site-data';
       flex-shrink: 0;
       border-radius: 8px;
       overflow: hidden;
-      background: #111;
+      background: #000;
     }
     @media (max-width: 650px) {
       .post-thumb-wrap {
@@ -127,7 +129,7 @@ import { SITE_DATA } from '../site-data';
     }
     .post-meta {
       font-size: 0.85rem;
-      color: var(--mat-sys-on-surface-variant, #777);
+      color: var(--mat-sys-on-surface-variant, #888);
       margin-bottom: 8px;
       display: flex;
       gap: 6px;
@@ -140,17 +142,17 @@ import { SITE_DATA } from '../site-data';
       line-height: 1.35;
     }
     .post-title a {
-      color: var(--mat-sys-on-surface);
+      color: var(--mat-sys-on-surface, #ffffff);
       text-decoration: none;
     }
     .post-title a:hover {
-      color: var(--mat-sys-primary);
+      color: var(--mat-sys-primary, #90caf9);
       text-decoration: underline;
     }
     .post-excerpt {
       font-size: 0.95rem;
       line-height: 1.6;
-      color: var(--mat-sys-on-surface-variant, #555);
+      color: var(--mat-sys-on-surface-variant, #b5b5b5);
       margin: 0 0 14px;
       flex: 1;
     }

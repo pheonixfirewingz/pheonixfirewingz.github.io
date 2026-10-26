@@ -71,7 +71,7 @@ import { SITE_DATA } from '../site-data';
     }
     .post-header {
       margin-bottom: 36px;
-      border-bottom: 1px solid var(--mat-sys-outline-variant, #e0e0e0);
+      border-bottom: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
       padding-bottom: 24px;
     }
     .post-title {
@@ -83,19 +83,19 @@ import { SITE_DATA } from '../site-data';
     }
     .post-meta {
       font-size: 0.95rem;
-      color: var(--mat-sys-on-surface-variant, #666);
+      color: var(--mat-sys-on-surface-variant, #888);
       display: flex;
       gap: 8px;
       align-items: center;
     }
     .meta-author {
       font-weight: 500;
-      color: var(--mat-sys-primary);
+      color: var(--mat-sys-primary, #90caf9);
     }
     .post-content {
       font-size: 1.1rem;
       line-height: 1.8;
-      color: var(--mat-sys-on-surface-variant, #333);
+      color: var(--mat-sys-on-surface-variant, #c8c8c8);
     }
     .post-para {
       margin-bottom: 24px;
@@ -104,13 +104,14 @@ import { SITE_DATA } from '../site-data';
       font-size: 1.4rem;
       font-weight: 600;
       margin: 36px 0 16px;
-      color: var(--mat-sys-on-surface);
+      color: var(--mat-sys-on-surface, #ffffff);
     }
     .post-figure {
       margin: 32px 0;
       border-radius: 10px;
       overflow: hidden;
-      background: #111;
+      background: #000;
+      border: 1px solid var(--mat-sys-outline-variant, #2a2a2a);
     }
     .post-img {
       width: 100%;
@@ -120,9 +121,9 @@ import { SITE_DATA } from '../site-data';
     .post-caption {
       padding: 10px 16px;
       font-size: 0.9rem;
-      color: #888;
+      color: #999;
       text-align: center;
-      background: #1a1a1a;
+      background: var(--mat-sys-surface-container-low, #181818);
     }
     .not-found-page {
       text-align: center;
