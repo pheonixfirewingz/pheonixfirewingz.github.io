@@ -214,11 +214,11 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "localPath": "assets/portfolio/custom-sounds-cover.jpg",
-          "title": "",
-          "description": "",
-          "width": 5184,
-          "height": 3456
+          "localPath": "assets/portfolio/custom-sounds-mixing-console.jpg",
+          "title": "Audio Mixing Console",
+          "description": "Photo by Abigail Keenan (CC0 Public Domain Dedication)",
+          "width": 1920,
+          "height": 1280
         }
       ]
     },
@@ -977,8 +977,8 @@ export const SITE_DATA = {
   ],
   "mediaAssets": [
     {
-      "localPath": "assets/portfolio/custom-sounds-cover.jpg",
-      "bytes": 2830445
+      "localPath": "assets/portfolio/custom-sounds-mixing-console.jpg",
+      "bytes": 379291
     },
     {
       "localPath": "assets/icons/discord.png",
