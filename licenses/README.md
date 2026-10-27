@@ -5,7 +5,7 @@ This directory contains the license documentation and provenance records governi
 ## Overview
 
 | Component | License | Details |
-| :--- | :--- | :--- |\
+| :--- | :--- | :--- |
 | **Website Application Code** (Components, layout, routing, engine) | [MIT License](MIT.txt) | © 2023-2026 Luke Shore (Open Source) |
 | **Site Data & Content** (`src/app/site-data.ts`) | [Source-Available](SOURCE-AVAILABLE.txt) | © 2023-2026 Luke Shore (Not Open Source - source-available for viewing/inspection only) |
 | **Original Portfolio & Blog Works** | Proprietary / All Rights Reserved | © 2023-2026 Luke Shore (Game demos, screenshots, articles, diagrams) |
