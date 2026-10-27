@@ -1,3 +1,17 @@
+/**
+ * SOURCE-AVAILABLE LICENSE NOTICE
+ * Copyright (c) 2023-2026 Luke Shore. All rights reserved.
+ * 
+ * This file (site-data.ts) contains personal content, biographical information,
+ * portfolio data, and articles belonging to Luke Shore.
+ * 
+ * It is SOURCE-AVAILABLE for viewing and inspection only. It is NOT open source.
+ * You may NOT copy, redistribute, republish, sublicense, or commercially exploit
+ * the data and content in this file without explicit prior written consent.
+ * 
+ * See licenses/SOURCE-AVAILABLE.txt and licenses/README.md for details.
+ */
+
 export const SITE_DATA = {
   "siteTitle": "lukeshore - Programmer Portfolio",
   "ownerName": "Luke Shore (Luke A. Shore)",

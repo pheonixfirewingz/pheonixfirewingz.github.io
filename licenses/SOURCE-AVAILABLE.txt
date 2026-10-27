@@ -1,0 +1,23 @@
+Source-Available License Notice
+
+Copyright (c) 2023-2026 Luke Shore. All rights reserved.
+
+Applicable to:
+- `src/app/site-data.ts` (Portfolio records, project descriptions, blog articles, and biographical data)
+- Associated personal written works and presentation content.
+
+TERMS AND CONDITIONS
+
+1. Source Availability & Inspection
+   The source code and structured data in the designated files are made publicly available solely for inspection, transparency, personal reference, and educational study in connection with viewing the portfolio website.
+
+2. Restrictions
+   - This content is NOT open source software.
+   - You may not copy, extract, distribute, sublicense, modify for redistribution, or create derivative works of Luke Shore's personal data, project copy, or blog articles.
+   - You may not use this data for commercial purposes, training machine learning models on personal articles without permission, or impersonation.
+
+3. Retention of Rights
+   Luke Shore retains full and exclusive copyright, ownership, and all intellectual property rights in and to all personal content, portfolio entries, biographical descriptions, and blog writings.
+
+4. No Warranty
+   THE CONTENT AND DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE CONTENT.
