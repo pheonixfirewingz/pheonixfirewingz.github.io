@@ -319,11 +319,11 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "title": "",
-          "description": "",
-          "width": 7918,
-          "height": 5939
+          "localPath": "assets/portfolio/liblunascript-code.jpg",
+          "title": "LibLunaScript Code",
+          "description": "Photo by Markus Spiske (CC0 Public Domain Dedication)",
+          "width": 1920,
+          "height": 1280
         }
       ]
     },
@@ -357,20 +357,20 @@ export const SITE_DATA = {
       "images": [
         {
           "role": "cover",
-          "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "title": "",
-          "description": "",
-          "width": 7918,
-          "height": 5939
+          "localPath": "assets/portfolio/libos-system-code.jpg",
+          "title": "LibOS System Code",
+          "description": "Photo by Markus Spiske (CC0 Public Domain Dedication)",
+          "width": 1920,
+          "height": 1280
         },
         {
           "role": "gallery",
-          "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-          "title": "Image by Annie Spratt",
-          "alt": "Image by Annie Spratt",
-          "description": "",
-          "width": 7918,
-          "height": 5939
+          "localPath": "assets/portfolio/libos-system-code.jpg",
+          "title": "LibOS System Code",
+          "alt": "LibOS System Code",
+          "description": "Photo by Markus Spiske (CC0 Public Domain Dedication)",
+          "width": 1920,
+          "height": 1280
         }
       ]
     },
@@ -1093,8 +1093,12 @@ export const SITE_DATA = {
       "bytes": 3054046
     },
     {
-      "localPath": "assets/portfolio/libos-liblunascript-cover-annie-spratt.jpg",
-      "bytes": 4960270
+      "localPath": "assets/portfolio/liblunascript-code.jpg",
+      "bytes": 701391
+    },
+    {
+      "localPath": "assets/portfolio/libos-system-code.jpg",
+      "bytes": 394660
     }
   ]
 };
