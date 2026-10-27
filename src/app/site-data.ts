@@ -45,8 +45,8 @@ export const SITE_DATA = {
       "heading": "Luke Shore",
       "subheading": "My Digital Space",
       "heroImage": {
-        "localPath": "assets/pages/home-hero-fotis-fotopoulos.jpg",
-        "alt": "Image by Fotis Fotopoulos"
+        "localPath": "assets/pages/home-hero-markus-spiske-code-monitor.jpg",
+        "alt": "Source code on computer monitor (CC0 Public Domain by Markus Spiske)"
       }
     },
     "about": {
