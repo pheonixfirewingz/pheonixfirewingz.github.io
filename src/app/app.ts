@@ -43,13 +43,6 @@ import { SITE_DATA } from './site-data';
         <div class="footer-copy">
           {{ copyright }}
         </div>
-        <div class="footer-social">
-          @for (social of socialLinks; track social.platform) {
-            <a [href]="social.url" target="_blank" rel="noopener noreferrer" class="social-btn" [title]="social.platform">
-              <img [src]="social.iconLocalPath" [alt]="social.platform" class="social-img" />
-            </a>
-          }
-        </div>
       </div>
     </footer>
   `,
@@ -144,18 +137,12 @@ import { SITE_DATA } from './site-data';
       margin: 0 auto;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
+      justify-content: center;
+      text-align: center;
     }
     .footer-copy {
       font-size: 0.875rem;
       color: var(--mat-sys-on-surface-variant, #888888);
-    }
-    .footer-social {
-      display: flex;
-      align-items: center;
-      gap: 12px;
     }
     @media (max-width: 680px) {
       .main-toolbar {
@@ -174,10 +161,6 @@ import { SITE_DATA } from './site-data';
       }
       .social-bar {
         display: none;
-      }
-      .footer-container {
-        flex-direction: column;
-        align-items: flex-start;
       }
     }
   `],
