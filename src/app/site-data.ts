@@ -1089,8 +1089,8 @@ export const SITE_DATA = {
       "bytes": 233239
     },
     {
-      "localPath": "assets/pages/home-hero-fotis-fotopoulos.jpg",
-      "bytes": 3054046
+      "localPath": "assets/pages/home-hero-markus-spiske-code-monitor.jpg",
+      "bytes": 546262
     },
     {
       "localPath": "assets/portfolio/liblunascript-code.jpg",
