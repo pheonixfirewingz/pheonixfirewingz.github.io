@@ -1,59 +1,129 @@
-# Pheonixfirewingz
+# Luke Shore — Programmer Portfolio & Blog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.4.
+Personal portfolio, project showcase, and engineering blog for **Luke Shore** (Software Engineer & Game Engine Developer), built with Angular 19, standalone components, Angular Material, and responsive modern CSS. Hosted on GitHub Pages at [pheonixfirewingz.github.io](https://pheonixfirewingz.github.io).
 
-## Development server
+---
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
+- **Personal Portfolio Showcase:** Detailed technical overviews for game engines (*Discout / Square Smash*, *First Game Engine*, *Shadows*, *Storyteria*), graphics systems (*Software Renderer*, *OpenTTD Renderer Rewrite*), and low-level tools (*LibLunaScript*, *LibOS Web Server*, *Custom Sounds*).
+- **Engineering Blog:** Long-form technical articles covering software rasterization, vertex mathematics, lighting algorithms, and custom tooling development.
+- **Dynamic Profile & Bio:** Calculates and displays up-to-date career experience dynamically from birth year without static year hardcoding.
+- **Fully Self-Contained Assets:** Zero external CDN image dependencies; all media, game screenshots, and CC0 public domain photography are hosted locally in `public/assets/`.
+- **Responsive & Accessible UI:** Clean dark theme with Angular Material components and semantic ARIA labeling.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Framework:** Angular 19 (Standalone Components, Signals, Router)
+- **UI Components:** Angular Material & Angular CDK
+- **Testing:** Vitest with jsdom
+- **Typography:** Roboto (Google Fonts / Apache 2.0)
+- **Deployment:** GitHub Pages SPA with 404 client-side route fallback
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Getting Started
 
-```bash
-ng generate --help
-```
+### Prerequisites
 
-## Building
+- [Node.js](https://nodejs.org/) (v20+ or v22+ recommended)
+- [npm](https://www.npmjs.com/) (v10+)
 
-To build the project run:
+### Installation
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Clone the repository and install dependencies:
 
 ```bash
-ng test
+git clone https://github.com/pheonixfirewingz/pheonixfirewingz.github.io.git
+cd pheonixfirewingz.github.io
+npm install
 ```
 
-## Running end-to-end tests
+### Development Server
 
-For end-to-end (e2e) testing, run:
+Run the Angular CLI development server:
 
 ```bash
-ng e2e
+npm start
+# or: npx ng serve
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Navigate to `http://localhost:4200/`. The app will automatically reload when source files are modified.
 
-## Additional Resources
+### Building for Production
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Compile optimized static production artifacts into `dist/pheonixfirewingz/browser`:
+
+```bash
+npm run build
+```
+
+To preview the built static bundle locally with SPA client-side routing support:
+
+```bash
+npx serve -s dist/pheonixfirewingz/browser
+```
+
+### Running Tests
+
+Execute unit tests via [Vitest](https://vitest.dev/):
+
+```bash
+npm test -- --watch=false
+```
+
+---
+
+## Project Structure
+
+```
+├── public/
+│   ├── assets/
+│   │   ├── blog/          # Technical figures and diagrams for blog posts
+│   │   ├── icons/         # Social platform brand icons (YouTube, Discord, GitHub)
+│   │   ├── pages/         # Page banner and hero imagery
+│   │   └── portfolio/     # Game screenshots, engine stills, and project covers
+│   ├── 404.html           # GitHub Pages SPA redirect fallback
+│   └── favicon.ico        # Site favicon
+├── src/
+│   ├── app/
+│   │   ├── components/    # Navigation, footer, and shared UI elements
+│   │   ├── pages/         # Home, Portfolio, Project Detail, About, and Blog views
+│   │   ├── app.config.ts  # Application routing and provider configuration
+│   │   ├── app.ts         # Root component
+│   │   ├── app.spec.ts    # Unit test suite
+│   │   └── site-data.ts   # Portfolio data, articles, bio (Source-Available)
+│   ├── index.html         # Application shell HTML
+│   ├── main.ts            # Bootstrapping entry point
+│   └── styles.css         # Global styling and dark theme variables
+├── licenses/
+│   ├── README.md          # License breakdown and summary table
+│   ├── MIT.txt            # MIT License for Angular application engine
+│   ├── SOURCE-AVAILABLE.txt # Terms for site-data.ts (Not open source)
+│   ├── CC0-1.0.txt        # Creative Commons CC0 1.0 Universal Dedication
+│   ├── APACHE-2.0.txt     # Apache License 2.0 (Roboto typography)
+│   └── ASSETS.md          # Comprehensive media provenance & attribution registry
+├── angular.json           # Angular workspace configuration
+├── package.json           # Dependencies and scripts
+├── tsconfig.json          # TypeScript compiler configuration
+└── vitest.config.ts       # Vitest configuration
+```
+
+---
+
+## Licensing & Attribution
+
+This repository uses a multi-tiered license structure documented in the [`licenses/`](licenses/) directory:
+
+| Component | License | Terms / Details |
+| :--- | :--- | :--- |
+| **Application Software Engine** | [MIT License](licenses/MIT.txt) | © 2023–2026 Luke Shore (Open Source) |
+| **Site Data & Articles** (`src/app/site-data.ts`) | [Source-Available](licenses/SOURCE-AVAILABLE.txt) | © 2023–2026 Luke Shore (Source-available for viewing/inspection only; not open source) |
+| **Original Portfolio & Blog Works** | Proprietary / All Rights Reserved | © 2023–2026 Luke Shore (Game engine demos, screenshots, text, and architecture diagrams) |
+| **Public Domain Photography** | [CC0 1.0 Universal](licenses/CC0-1.0.txt) | Creative Commons Public Domain Dedication (Markus Spiske, Abigail Keenan) |
+| **Brand Icons** | Brand Fair Use | Discord Inc., GitHub, Inc., and Google LLC / YouTube |
+| **Typography (Roboto)** | [Apache License 2.0](licenses/APACHE-2.0.txt) | Google Fonts / Android Open Source Project |
+
+For complete asset-by-asset provenance details, see [`licenses/ASSETS.md`](licenses/ASSETS.md).
